@@ -1,0 +1,14 @@
+POST /apply.cgi HTTP/1.1
+Host: 172.17.0.2
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:107.0) Gecko/20100101 Firefox/107.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 707
+Origin: http://172.17.0.2
+Connection: close
+Referer: http://172.17.0.2/adv_ipv6_autoconfig.asp
+Upgrade-Insecure-Requests: 1
+
+html_response_page=back.asp&html_response_message=The+new+settings+have+been+saved.&html_response_return_page=adv_ipv6_autoconfig.asp&ipv6_autoconfig=1&ipv6_dhcp_pd_enable=1&ipv6_dhcp_pd_enable_l=1&ipv6_autoconfig_dns_enable=0&ipv6_dhcpd_start=%3A%3A0001&ipv6_dhcpd_end=%3A%3A0200&ipv6_wan_proto=ipv6_autoconfig&ipv6_ra_adv_valid_lifetime_l_one=86400&ipv6_ra_adv_prefer_lifetime_l_one=86400&ipv6_wan_specify_dns=0&reboot_type=wan&ipv6_w_proto=ipv6_autoconfig&ipv6_dns_autoconfig_enable=0&ipv6_dhcp_pd_chk=1&ipv6_autoconfig_sel=1&ipv6_dhcp_pd_lan=1&ipv6_autoconfig_type=stateless_dhcp&ipv6_addr_range_start_prefix=&ipv6_addr_range_start_suffix=0001&ipv6_addr_range_end_prefix=&ipv6_addr_range_end_suffix=0200

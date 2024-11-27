@@ -1,0 +1,51 @@
+version: '1'
+info:
+  serial: BM-2024-00119
+  build_date: 2024-10-28
+  firmware:
+    architecture: MIPSEB
+    sha256: b9d9716f4c7f524b56e5efaee34ccc361ac53b54af29aae3f727cb41475a929f
+    vendor: D-Link
+    name: DAP-3662
+    file_name: DAP-3662_REVA_FIRMWARE_1.00RC015.zip
+    version: v1.00RC015
+    release_date:
+    description: Wireless AC1200 Concurrent Dual-Band Outdoor PoE Access Point
+emulation:
+  context: ./emulation
+  ip: 192.168.0.50
+  port: 80
+  interface: tap
+seed:
+  directory: ./seed
+  list:
+  - seed_0
+  - seed_1
+  - seed_10
+  - seed_11
+  - seed_12
+  - seed_13
+  - seed_14
+  - seed_15
+  - seed_16
+  - seed_17
+  - seed_18
+  - seed_19
+  - seed_2
+  - seed_20
+  - seed_21
+  - seed_22
+  - seed_23
+  - seed_24
+  - seed_25
+  - seed_3
+  - seed_4
+  - seed_5
+  - seed_6
+  - seed_7
+  - seed_8
+  - seed_9
+authkeeper:
+  method: replay
+  script_path: ./auth/replay.py
+  test_seed: seed_1

@@ -1,0 +1,16 @@
+POST /HNAP1/ HTTP/1.1
+Host: 0.0.0.0:49161
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
+Accept: application/json
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/json
+SOAPACTION: "http://purenetworks.com/HNAP1/SetMasterAdvWLanSettings"
+HNAP_AUTH: D360399BEC2C30376DD2EC2EC734ADB7 1679313512788
+Content-Length: 342
+Origin: http://0.0.0.0:49161
+Connection: keep-alive
+Referer: http://0.0.0.0:49161/Advwireless.html?t=1679313501196
+Cookie: uid=lKMyw2sI; timeout=0; PHPSESSID=31bcf053d45d5d0f5f013f84482e53dd; PrivateKey=4F851651A94429076E62145878BEF43A
+
+{"SetMasterAdvWLanSettings":{"wl(0)_channel":"2","wl(0)_mode":"b/g/n","wl(0)_bandwidth":"20/40","wl(0)_guard_intv":"1","wl(0)_tx_power":"100","wl(0).(0)_ssid_hidden":"1","wl(0)_wmm":"0","wl(1)_channel":"0","wl(1)_mode":"a/n/ac","wl(1)_bandwidth":"80","wl(1)_guard_intv":"0","wl(1)_tx_power":"100","wl(1).(0)_ssid_hidden":"1","wl(1)_wmm":"0"}}

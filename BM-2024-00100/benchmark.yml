@@ -1,0 +1,42 @@
+version: '1'
+info:
+  serial: BM-2024-00100
+  build_date: 2024-10-24
+  firmware:
+    architecture: MIPSEB
+    sha256: 7b6a2134d77666379e2aa57c086b77eb0e3218076965c3ddd0f1d3fd1a6748f2
+    vendor: D-Link
+    name: DIR-825 B1
+    file_name: DIR825B1_FW202SSB13.bin
+    version: v2.02SSb13
+    release_date: 2010
+    description: null
+emulation:
+  context: ./emulation
+  ip: 192.168.0.1
+  port: 80
+  interface: tap
+seed:
+  directory: ./seed
+  list:
+  - seed_0
+  - seed_1
+  - seed_10
+  - seed_11
+  - seed_12
+  - seed_13
+  - seed_14
+  - seed_15
+  - seed_16
+  - seed_17
+  - seed_18
+  - seed_19
+  - seed_2
+  - seed_20
+  - seed_21
+  - seed_22
+  - seed_7
+authkeeper:
+  method: none
+  script_path: none
+  test_seed: seed_27

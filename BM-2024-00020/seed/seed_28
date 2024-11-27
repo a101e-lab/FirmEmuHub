@@ -1,0 +1,16 @@
+POST /cgi?2 HTTP/1.1
+Host: 0.0.0.0:49164
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: text/plain
+Content-Length: 76
+Origin: http://0.0.0.0:49164
+Connection: keep-alive
+Referer: http://0.0.0.0:49164/mainFrame.htm
+Cookie: uid=iKJTbSxJ; PrivateKey=5230A5DAE98EF5E6BD6C87E67BB565AB; PHPSESSID=85ec2df3527e637073acc8de0f600edc; Authorization=Basic YWRtaW46YWRtaW4=
+
+[DMZ_HOST_CFG#0,0,0,0,0,0#0,0,0,0,0,0]0,2
+enable=0
+IPAddress=192.168.0.6

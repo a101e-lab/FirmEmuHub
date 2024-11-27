@@ -1,0 +1,45 @@
+version: '1'
+info:
+  serial: BM-2024-00090
+  build_date: 2024-10-22
+  firmware:
+    architecture: MIPSEB
+    sha256: dd9faf1082cf87705d91b3f3a58abed525586fe919ffffad78ec79bd6963dd35
+    vendor: D-Link
+    name: DAP-3520
+    file_name: DAP-3520-firmware-v115-rc039.bin
+    version: v1.15
+    release_date: null
+    description: null
+emulation:
+  context: ./emulation
+  ip: 192.168.0.50
+  port: 80
+  interface: tap
+seed:
+  directory: ./seed
+  list:
+  - seed_0
+  - seed_1
+  - seed_10
+  - seed_11
+  - seed_12
+  - seed_13
+  - seed_14
+  - seed_15
+  - seed_16
+  - seed_17
+  - seed_18
+  - seed_19
+  - seed_2
+  - seed_3
+  - seed_4
+  - seed_5
+  - seed_6
+  - seed_7
+  - seed_8
+  - seed_9
+authkeeper:
+  method: replay
+  script_path: ./auth/replay.py
+  test_seed: seed_1

@@ -1,0 +1,76 @@
+version: '1'
+info:
+  serial: BM-2024-00052
+  build_date: 2024-07-22
+  firmware:
+    architecture: MIPSEB
+    sha256: e3f689b2f0354a814f4fb1815a943cebdac058fc7da5c3e506bb539232dd3f21
+    vendor: TP-Link
+    name: TL-WR743ND
+    file_name: wr743ndv1_en_3_12_20_up_boot(130109).bin
+    version: V1
+    release_date: 2013-01-09
+    description: 150Mbps Wireless AP/Client Router
+emulation:
+  context: ./emulation
+  ip: 192.168.1.1
+  port: 80
+  interface: tap
+seed:
+  directory: ./seed
+  list:
+  - seed_0
+  - seed_1
+  - seed_10
+  - seed_11
+  - seed_12
+  - seed_13
+  - seed_14
+  - seed_15
+  - seed_16
+  - seed_17
+  - seed_18
+  - seed_19
+  - seed_2
+  - seed_20
+  - seed_21
+  - seed_22
+  - seed_23
+  - seed_24
+  - seed_25
+  - seed_26
+  - seed_27
+  - seed_28
+  - seed_29
+  - seed_3
+  - seed_30
+  - seed_31
+  - seed_32
+  - seed_33
+  - seed_34
+  - seed_35
+  - seed_36
+  - seed_37
+  - seed_38
+  - seed_39
+  - seed_4
+  - seed_40
+  - seed_41
+  - seed_42
+  - seed_43
+  - seed_44
+  - seed_45
+  - seed_46
+  - seed_47
+  - seed_48
+  - seed_49
+  - seed_5
+  - seed_50
+  - seed_6
+  - seed_7
+  - seed_8
+  - seed_9
+authkeeper:
+  method: none
+  script_path: none
+  test_seed: none

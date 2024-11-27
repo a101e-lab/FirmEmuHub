@@ -1,0 +1,17 @@
+POST /HNAP1/ HTTP/1.1
+Host: 192.168.33.38:32936
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/118.0
+Accept: */*
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "http://purenetworks.com/HNAP1/GetNetworkTomographySettings"
+HNAP_AUTH: 6F7A5859402C68AE262ACD17B29F27F0 1698143237
+X-Requested-With: XMLHttpRequest
+Content-Length: 317
+Origin: http://192.168.33.38:32936
+Connection: keep-alive
+Referer: http://192.168.33.38:32936/Diagnosis.html
+Cookie: uid=GcfQ7q3TwY; PrivateKey=455D512F7EA7AA45CC1B4CBB4562DE49; timeout=0
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><GetNetworkTomographySettings xmlns="http://purenetworks.com/HNAP1/" /></soap:Body></soap:Envelope>

@@ -1,0 +1,15 @@
+POST /cgi-bin/luci/;stok=088d9a619d401d4b9a6a092a50e1ca53/admin/balance?form=balance_basic HTTP/1.1
+Host: 0.0.0.0:49155
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
+Accept: application/json, text/javascript, */*; q=0.01
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+X-Requested-With: XMLHttpRequest
+Content-Length: 153
+Origin: http://0.0.0.0:49155
+Connection: close
+Referer: http://0.0.0.0:49155/webpages/index.html
+Cookie: sysauth=54d294acf5de75d3731f1f048a38e8b4
+
+data=%7B%22method%22%3A%22set%22%2C%22params%22%3A%7B%22special_state%22%3A%22on%22%2C%22balance_state%22%3A%22on%22%2C%22use_iface%22%3A%22WAN1%22%7D%7D

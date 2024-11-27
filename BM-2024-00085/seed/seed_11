@@ -1,0 +1,547 @@
+POST /hedwig.cgi HTTP/1.1
+Host: 192.168.33.132:33127
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0
+Accept: */*
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml
+Content-Length: 11984
+Origin: http://192.168.33.132:33127
+Connection: keep-alive
+Referer: http://192.168.33.132:33127/tools_time.php
+Cookie: uid=0YA6jMJFxh
+Priority: u=0
+
+<?xml version="1.0" encoding="UTF-8"?>
+<postxml>
+<module>
+	<service>DEVICE.TIME</service>
+	<device>
+		<time>
+			<ntp>
+				<enable>0</enable>
+				<period>604800</period>
+				<server>ntp1.dlink.com</server>
+			</ntp>
+			<ntp6>
+				<enable>0</enable>
+				<period>604800</period>
+			</ntp6>
+			<timezone>63</timezone>
+			<time>15:42:42</time>
+			<date>10/23/2024</date>
+			<dst>0</dst>
+			<dstmanual/>
+			<dstoffset/>
+		</time>
+	</device>
+</module>
+<module>
+	<service>RUNTIME.TIME</service>
+	<runtime>
+		<device>
+			<date>10/23/2024</date>
+			<time>15:42:42</time>
+			<timestate>SUCCESS</timestate>
+			<uptime>2000/01/01 07:42:27</uptime>
+			<uptimes>1451</uptimes>
+			<rfc1123time>Fri, 31 Dec 1999 22:42:27 GMT</rfc1123time>
+			<ntp>
+				<state>RUNNING</state>
+				<server/>
+				<uptime>2000/01/01 07:18:16</uptime>
+				<uptimes/>
+				<period/>
+				<nexttime/>
+				<nexttimes/>
+			</ntp>
+			<ntp6>
+				<state/>
+				<server/>
+				<uptime>2000/01/01 07:18:16</uptime>
+				<uptimes/>
+				<period/>
+				<nexttime/>
+				<nexttimes/>
+			</ntp6>
+			<timezone>
+				<index>63</index>
+				<name>(GMT+09:00) Seoul</name>
+				<localename>(GMT+09:00) Seoul</localename>
+				<dst>0</dst>
+			</timezone>
+		</device>
+	</runtime>
+	<ACTIVATE>ignore</ACTIVATE>
+</module>
+<module>
+	<service>RUNTIME.SERVICES.TIMEZONE</service>	
+	<runtime>
+		<services>
+			<timezone>												
+						<valid>1</valid>
+		<zone>
+			<name>(GMT-12:00) International Date Line West</name>
+			<gen>GMT+12:00</gen>
+			<dst/>
+			<uid>1</uid>
+		</zone>
+		<zone>
+			<name>(GMT-11:00) Midway Island</name>
+			<gen>GMT+11:00</gen>
+			<dst/>
+			<uid>2</uid>
+		</zone>
+		<zone>
+			<name>(GMT-10:00) Hawaii</name>
+			<gen>GMT+10:00</gen>
+			<dst/>
+			<uid>3</uid>
+		</zone>
+		<zone>
+			<name>(GMT-09:00) Alaska</name>
+			<gen>GMT+09:00</gen>
+			<dst>GDT,M4.1.0/02:00:00,M10.5.0/02:00:00</dst>
+			<uid>4</uid>
+		</zone>
+		<zone>
+			<name>(GMT-08:00) Pacific Time (US &amp; Canada, Tijuana</name>
+			<gen>PST+08:00</gen>
+			<dst>PDT,M4.1.0/02:00:00,M10.5.0/02:00:00</dst>
+			<uid>5</uid>
+		</zone>
+		<zone>
+			<name>(GMT-07:00) Arizona</name>
+			<gen>GMT+07:00</gen>
+			<dst/>
+			<uid>6</uid>
+		</zone>
+		<zone>
+			<name>(GMT-07:00) Chihuahua, La Paz, Mazatlan</name>
+			<gen>GMT+07:00</gen>
+			<dst>GDT,M4.1.0/02:00:00,M10.5.0/02:00:00</dst>
+			<uid>7</uid>
+		</zone>
+		<zone>
+			<name>(GMT-07:00) Mountain Time (US &amp; Canada)</name>
+			<gen>GMT+07:00</gen>
+			<dst>GDT,M4.1.0/02:00:00,M10.5.0/02:00:00</dst>
+			<uid>8</uid>
+		</zone>
+		<zone>
+			<name>(GMT-06:00) Central America</name>
+			<gen>GMT+06:00</gen>
+			<dst/>
+			<uid>9</uid>
+		</zone>
+		<zone>
+			<name>(GMT-06:00) Central Time (US &amp; Canada)</name>
+			<gen>GMT+06:00</gen>
+			<dst>GDT,M4.1.0/02:00:00,M10.5.0/02:00:00</dst>
+			<uid>10</uid>
+		</zone>
+		<zone>
+			<name>(GMT-06:00) Guadalajara, Mexico City, Monterrey</name>
+			<gen>GMT+06:00</gen>
+			<dst>GDT,M4.1.0/02:00:00,M10.5.0/02:00:00</dst>
+			<uid>11</uid>
+		</zone>
+		<zone>
+			<name>(GMT-06:00) Saskatchewan</name>
+			<gen>GMT+06:00</gen>
+			<dst/>
+			<uid>12</uid>
+		</zone>
+		<zone>
+			<name>(GMT-05:00) Bogota, Lima, Quito,Indiana (East)</name>
+			<gen>GMT+05:00</gen>
+			<dst/>
+			<uid>13</uid>
+		</zone>
+		<zone>
+			<name>(GMT-05:00) Eastern Time (US &amp; Canada)</name>
+			<gen>EST+05:00</gen>
+			<dst>EDT,M4.1.0/02:00:00,M10.5.0/02:00:00</dst>
+			<uid>14</uid>
+		</zone>
+		<zone>
+			<name>(GMT-04:30) Caracas</name>
+			<gen>GMT+04:30</gen>
+			<dst/>
+			<uid>15</uid>
+		</zone>
+		<zone>
+			<name>(GMT-04:00) Georgetown, La Paz</name>
+			<gen>GMT+04:00</gen>
+			<dst/>
+			<uid>16</uid>
+		</zone>
+		<zone>
+			<name>(GMT-04:00) Atlantic Time (Canada)</name>
+			<gen>GMT+04:00</gen>
+			<dst>GDT,M4.1.0/02:00:00,M10.5.0/02:00:00</dst>
+			<uid>17</uid>
+		</zone>
+		<zone>
+			<name>(GMT-04:00) Santiago</name>
+			<gen>GMT+04:00</gen>
+			<dst>GDT,M10.2.6/00:00:00,M3.2.6/00:00:00</dst>
+			<uid>18</uid>
+		</zone>
+		<zone>
+			<name>(GMT-03:30) Newfoundland</name>
+			<gen>GMT+03:30</gen>
+			<dst>GDT,M4.1.0/02:00:00,M10.5.0/02:00:00</dst>
+			<uid>19</uid>
+		</zone>
+		<zone>
+			<name>(GMT-03:00) Brasilia</name>
+			<gen>GMT+03:00</gen>
+			<dst>GDT,M11.1.0/00:00:00,M2.5.0/00:00:00</dst>
+			<uid>20</uid>
+		</zone>
+		<zone>
+			<name>(GMT-03:00) Buenos Aires</name>
+			<gen>GMT+03:00</gen>
+			<dst/>
+			<uid>21</uid>
+		</zone>
+		<zone>
+			<name>(GMT-03:00) Greenland</name>
+			<gen>GMT+03:00</gen>
+			<dst>GDT,M4.1.0/02:00:00,M10.5.0/02:00:00</dst>
+			<uid>22</uid>
+		</zone>
+		<zone>
+			<name>(GMT-02:00) Mid-Atlantic</name>
+			<gen>GMT+02:00</gen>
+			<dst>GDT,M3.5.0/02:00:00,M9.5.0/02:00:00</dst>
+			<uid>23</uid>
+		</zone>
+		<zone>
+			<name>(GMT-01:00) Azores</name>
+			<gen>GMT+01:00</gen>
+			<dst>GDT,M3.5.0/02:00:00,M10.5.0/03:00:00</dst>
+			<uid>24</uid>
+		</zone>
+		<zone>
+			<name>(GMT-01:00) Cape Verde Is.</name>
+			<gen>GMT+01:00</gen>
+			<dst/>
+			<uid>25</uid>
+		</zone>
+		<zone>
+			<name>(GMT) Casablanca, Monrovia</name>
+			<gen>GMT+00:00</gen>
+			<dst/>
+			<uid>26</uid>
+		</zone>
+		<zone>
+			<name>(GMT) Greenwich Mean Time : Dublin, Edinburgh, Lisbon, London</name>
+			<gen>GMT+00:00</gen>
+			<dst>GDT,M3.5.0/01:00:00,M10.5.0/02:00:00</dst>
+			<uid>27</uid>
+		</zone>
+		<zone>
+			<name>(GMT+01:00) Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna</name>
+			<gen>GMT-01:00</gen>
+			<dst>GDT,M3.5.0/02:00:00,M10.5.0/03:00:00</dst>
+			<uid>28</uid>
+		</zone>
+		<zone>
+			<name>(GMT+01:00) Belgrade, Bratislava, Budapest, Ljubljana, Prague</name>
+			<gen>GMT-01:00</gen>
+			<dst>GDT,M3.5.0/02:00:00,M10.5.0/03:00:00</dst>
+			<uid>29</uid>
+		</zone>
+		<zone>
+			<name>(GMT+01:00) Brussels, Copenhagen, Madrid, Paris</name>
+			<gen>GMT-01:00</gen>
+			<dst>GDT,M3.5.0/02:00:00,M10.5.0/03:00:00</dst>
+			<uid>30</uid>
+		</zone>
+		<zone>
+			<name>(GMT+01:00) Sarajevo, Skopje, Warsaw, Zagreb</name>
+			<gen>GMT-01:00</gen>
+			<dst>GDT,M3.5.0/02:00:00,M10.5.0/03:00:00</dst>
+			<uid>31</uid>
+		</zone>
+		<zone>
+			<name>(GMT+01:00) West Central Africa</name>
+			<gen>GMT-01:00</gen>
+			<dst/>
+			<uid>32</uid>
+		</zone>
+		<zone>
+			<name>(GMT+02:00) Athens, Istanbul, Minsk</name>
+			<gen>GMT-02:00</gen>
+			<dst>GDT,M3.5.0/03:00:00,M10.5.0/04:00:00</dst>
+			<uid>33</uid>
+		</zone>
+		<zone>
+			<name>(GMT+02:00) Bucharest</name>
+			<gen>GMT-02:00</gen>
+			<dst>GDT,M3.5.0/03:00:00,M10.5.0/04:00:00</dst>
+			<uid>34</uid>
+		</zone>
+		<zone>
+			<name>(GMT+02:00) Cairo</name>
+			<gen>GMT-02:00</gen>
+			<dst>GDT,M4.5.5/00:00:00,M9.5.4/00:00:00</dst>
+			<uid>35</uid>
+		</zone>
+		<zone>
+			<name>(GMT+02:00) Harare, Pretoria</name>
+			<gen>GMT-02:00</gen>
+			<dst/>
+			<uid>36</uid>
+		</zone>
+		<zone>
+			<name>(GMT+02:00) Helsinki, Kyiv, Riga, Sofia, Tallinn, Vilnius</name>
+			<gen>GMT-02:00</gen>
+			<dst>GDT,M3.5.0/03:00:00,M10.5.0/04:00:00</dst>
+			<uid>37</uid>
+		</zone>
+		<zone>
+			<name>(GMT+02:00) Jerusalem</name>
+			<gen>GMT-02:00</gen>
+			<dst>GDT,M4.5.0/00:00:00,M10.5.0/01:00:00</dst>
+			<uid>38</uid>
+		</zone>
+		<zone>
+			<name>(GMT+03:00) Baghdad</name>
+			<gen>GMT-03:00</gen>
+			<dst/>
+			<uid>39</uid>
+		</zone>
+		<zone>
+			<name>(GMT+03:00) Kuwait, Riyadh</name>
+			<gen>GMT-03:00</gen>
+			<dst/>
+			<uid>40</uid>
+		</zone>
+		<zone>
+			<name>(GMT+03:00) Nairobi</name>
+			<gen>GMT-03:00</gen>
+			<dst/>
+			<uid>41</uid>
+		</zone>
+		<zone>
+			<name>(GMT+03:30) Tehran</name>
+			<gen>GMT-03:30</gen>
+			<dst>GDT,M3.4.1/02:30:00,M10.4.3/03:30:00</dst>
+			<uid>42</uid>
+		</zone>
+		<zone>
+			<name>(GMT+04:00) Abu Dhabi, Muscat</name>
+			<gen>GMT-04:00</gen>
+			<dst/>
+			<uid>43</uid>
+		</zone>
+		<zone>
+			<name>(GMT+04:00) Baku, Tbilisi, Yerevan</name>
+			<gen>GMT-04:00</gen>
+			<dst>GDT,M3.5.0/02:00:00,M10.5.0/03:00:00</dst>
+			<uid>44</uid>
+		</zone>
+		<zone>
+			<name>(GMT+04:00) Moscow, St. Petersburg, Volgograd</name>
+			<gen>GMT-04:00</gen>
+			<dst>GDT,M3.5.0/02:00:00,M10.5.0/03:00:00</dst>
+			<uid>45</uid>
+		</zone>
+		<zone>
+			<name>(GMT+04:30) Kabul</name>
+			<gen>GMT-04:30</gen>
+			<dst/>
+			<uid>46</uid>
+		</zone>
+		<zone>
+			<name>(GMT+05:00) Islamabad, Karachi, Tashkent</name>
+			<gen>GMT-05:00</gen>
+			<dst/>
+			<uid>48</uid>
+		</zone>
+		<zone>
+			<name>(GMT+05:30) Chennai, Kolkata, Mumbai, New Delhi</name>
+			<gen>GMT-05:30</gen>
+			<dst/>
+			<uid>49</uid>
+		</zone>
+		<zone>
+			<name>(GMT+05:30) Sri Jayawardenepura</name>
+			<gen>GMT-05:30</gen>
+			<dst/>
+			<uid>53</uid>
+		</zone>
+		<zone>
+			<name>(GMT+05:45) Kathmandu</name>
+			<gen>GMT-05:45</gen>
+			<dst/>
+			<uid>50</uid>
+		</zone>
+		<zone>
+			<name>(GMT+06:00) Astana, Dhaka</name>
+			<gen>GMT-06:00</gen>
+			<dst/>
+			<uid>52</uid>
+		</zone>
+		<zone>
+			<name>(GMT+06:00) Ekaterinburg</name>
+			<gen>GMT-06:00</gen>
+			<dst>GDT,M3.5.0/02:00:00,M10.5.0/03:00:00</dst>
+			<uid>47</uid>
+		</zone>
+		<zone>
+			<name>(GMT+06:30) Rangoon</name>
+			<gen>GMT-06:30</gen>
+			<dst/>
+			<uid>54</uid>
+		</zone>
+		<zone>
+			<name>(GMT+07:00) Almaty, Novosibirsk</name>
+			<gen>GMT-07:00</gen>
+			<dst>GDT,M3.5.0/02:00:00,M10.5.0/03:00:00</dst>
+			<uid>51</uid>
+		</zone>
+		<zone>
+			<name>(GMT+07:00) Bangkok, Hanoi, Jakarta</name>
+			<gen>GMT-07:00</gen>
+			<dst/>
+			<uid>55</uid>
+		</zone>
+		<zone>
+			<name>(GMT+08:00) Krasnoyarsk</name>
+			<gen>GMT-08:00</gen>
+			<dst>GDT,M3.5.0/02:00:00,M10.5.0/03:00:00</dst>
+			<uid>56</uid>
+		</zone>
+		<zone>
+			<name>(GMT+08:00) Beijing, Chongqing, Hong Kong, Urumqi</name>
+			<gen>CST-08:00</gen>
+			<dst/>
+			<uid>57</uid>
+		</zone>
+		<zone>
+			<name>(GMT+08:00) Kuala Lumpur, Singapore</name>
+			<gen>GMT-08:00</gen>
+			<dst/>
+			<uid>59</uid>
+		</zone>
+		<zone>
+			<name>(GMT+08:00) Perth</name>
+			<gen>GMT-08:00</gen>
+			<dst>GDT,M10.5.0/02:00:00,M3.5.0/03:00:00</dst>
+			<uid>60</uid>
+		</zone>
+		<zone>
+			<name>(GMT+08:00) Taipei</name>
+			<gen>GMT-08:00</gen>
+			<dst/>
+			<uid>61</uid>
+		</zone>
+		<zone>
+			<name>(GMT+09:00) Irkutsk, Ulaan Bataar</name>
+			<gen>GMT-09:00</gen>
+			<dst>GDT,M3.5.0/02:00:00,M10.5.0/03:00:00</dst>
+			<uid>58</uid>
+		</zone>
+		<zone>
+			<name>(GMT+09:00) Osaka, Sapporo, Tokyo</name>
+			<gen>GMT-09:00</gen>
+			<dst/>
+			<uid>62</uid>
+		</zone>
+		<zone>
+			<name>(GMT+09:00) Seoul</name>
+			<gen>GMT-09:00</gen>
+			<dst/>
+			<uid>63</uid>
+		</zone>
+		<zone>
+			<name>(GMT+09:30) Adelaide</name>
+			<gen>GMT-09:30</gen>
+			<dst>GDT,M10.5.0/02:00:00,M3.5.0/03:00:00</dst>
+			<uid>65</uid>
+		</zone>
+		<zone>
+			<name>(GMT+09:30) Darwin</name>
+			<gen>GMT-09:30</gen>
+			<dst/>
+			<uid>66</uid>
+		</zone>
+		<zone>
+			<name>(GMT+10:00) Brisbane</name>
+			<gen>GMT-10:00</gen>
+			<dst/>
+			<uid>67</uid>
+		</zone>
+		<zone>
+			<name>(GMT+10:00) Canberra, Melbourne, Sydney</name>
+			<gen>GMT-10:00</gen>
+			<dst>GDT,M10.5.0/02:00:00,M3.5.0/03:00:00</dst>
+			<uid>68</uid>
+		</zone>
+		<zone>
+			<name>(GMT+10:00) Guam, Port Moresby</name>
+			<gen>GMT-10:00</gen>
+			<dst/>
+			<uid>69</uid>
+		</zone>
+		<zone>
+			<name>(GMT+10:00) Hobart</name>
+			<gen>GMT-10:00</gen>
+			<dst>GDT,M10.1.0/02:00:00,M3.5.0/03:00:00</dst>
+			<uid>70</uid>
+		</zone>
+		<zone>
+			<name>(GMT+10:00) Yakutsk</name>
+			<gen>GMT-10:00</gen>
+			<dst>GDT,M3.5.0/02:00:00,M10.5.0/03:00:00</dst>
+			<uid>64</uid>
+		</zone>
+		<zone>
+			<name>(GMT+11:00) Vladivostok</name>
+			<gen>GMT-11:00</gen>
+			<dst>GDT,M3.5.0/02:00:00,M10.5.0/03:00:00</dst>
+			<uid>71</uid>
+		</zone>
+		<zone>
+			<name>(GMT+12:00) Magadan, Solomon Is., New Caledonia</name>
+			<gen>GMT-12:00</gen>
+			<dst/>
+			<uid>72</uid>
+		</zone>
+		<zone>
+			<name>(GMT+12:00) Auckland, Wellington</name>
+			<gen>GMT-12:00</gen>
+			<dst>GDT,M10.1.0/02:00:00,M3.5.0/03:00:00</dst>
+			<uid>73</uid>
+		</zone>
+		<zone>
+			<name>(GMT+12:00) Fiji, Kamchatka, Marshall Is.</name>
+			<gen>GMT-12:00</gen>
+			<dst/>
+			<uid>74</uid>
+		</zone>
+		<zone>
+			<name>(GMT+13:00) Nuku'alofa</name>
+			<gen>GMT-13:00</gen>
+			<dst/>
+			<uid>75</uid>
+		</zone>
+		<zone>
+			<name>(GMT+13:00) Samoa</name>
+			<gen>GMT-13:00</gen>
+			<dst/>
+			<uid>76</uid>
+		</zone>
+
+			</timezone>
+		</services>
+	</runtime>
+	<SETCFG>ignore</SETCFG>
+	<FATLADY>ignore</FATLADY>
+	<ACTIVATE>ignore</ACTIVATE>			
+</module>
+</postxml>

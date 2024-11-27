@@ -1,0 +1,17 @@
+POST /HNAP1/ HTTP/1.1
+Host: 192.168.33.61:32821
+Content-Length: 309
+Accept: */*
+X-Requested-With: XMLHttpRequest
+HNAP_AUTH: 7F60AD4E4AF29DAEB986C6BF7740C7A7 1699262644
+SOAPAction: "http://purenetworks.com/HNAP1/GetNTPServerSettings"
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.90 Safari/537.36
+Content-Type: text/xml; charset=UTF-8
+Origin: http://192.168.33.61:32821
+Referer: http://192.168.33.61:32821/WiFiTimer.html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: uid=ujcI4DPmyw; PrivateKey=C8B843B87E7C03EF5F224D6D4949A7F1; timeout=0
+Connection: close
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><GetNTPServerSettings xmlns="http://purenetworks.com/HNAP1/" /></soap:Body></soap:Envelope>

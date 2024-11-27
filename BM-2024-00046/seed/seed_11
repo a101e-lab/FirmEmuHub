@@ -1,0 +1,16 @@
+POST /HNAP1/ HTTP/1.1
+Host: 0.0.0.0:49161
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
+Accept: application/json
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/json
+SOAPACTION: "http://purenetworks.com/HNAP1/SetWifiDownSettings"
+HNAP_AUTH: D360399BEC2C30376DD2EC2EC734ADB7 1679313539479
+Content-Length: 53
+Origin: http://0.0.0.0:49161
+Connection: keep-alive
+Referer: http://0.0.0.0:49161/WiFiTimer.html?t=1679313537102
+Cookie: uid=lKMyw2sI; timeout=0; PHPSESSID=31bcf053d45d5d0f5f013f84482e53dd; PrivateKey=4F851651A94429076E62145878BEF43A
+
+{"SetWifiDownSettings":{"wifidown_control_mode":"1"}}

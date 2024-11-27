@@ -1,0 +1,11 @@
+GET /DQYGHBRCLMOAXRHA/userRpm/StaticRouteTableRpm.htm?Ip=192.168.3.3&Mask=255.255.255.0&Gateway=192.168.3.1&State=1&Changed=0&SelIndex=0&Page=1&Save=Save HTTP/1.1
+Host: 192.168.2.139:52913
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/109.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Referer: http://192.168.2.139:52913/DQYGHBRCLMOAXRHA/userRpm/StaticRouteTableRpm.htm?Add=Add&Page=1
+Cookie: Authorization=Basic%20YWRtaW46MjEyMzJmMjk3YTU3YTVhNzQzODk0YTBlNGE4MDFmYzM%3D
+Upgrade-Insecure-Requests: 1
+

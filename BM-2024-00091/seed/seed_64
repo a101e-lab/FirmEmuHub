@@ -1,0 +1,29 @@
+POST /upload_acl._int HTTP/1.1
+Host: 192.168.33.140:32796
+Content-Length: 340
+Cache-Control: max-age=0
+Accept-Language: zh-CN,zh;q=0.9
+Origin: http://192.168.33.140:32796
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryHL8yXI8mwsPmAzRb
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.6668.71 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://192.168.33.140:32796/adv_acl.php
+Accept-Encoding: gzip, deflate, br
+Cookie: dlink_uid=pswghpukk
+Connection: keep-alive
+
+------WebKitFormBoundaryHL8yXI8mwsPmAzRb
+Content-Disposition: form-data; name="macacl"; filename="已完成的bm.acl"
+Content-Type: application/octet-stream
+
+TP-LINK
+1、5
+D-LINK
+1-2
+
+------WebKitFormBoundaryHL8yXI8mwsPmAzRb
+Content-Disposition: form-data; name="acl_load"
+
+ Upload 
+------WebKitFormBoundaryHL8yXI8mwsPmAzRb--

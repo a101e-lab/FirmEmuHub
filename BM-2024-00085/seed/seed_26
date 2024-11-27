@@ -1,0 +1,29 @@
+POST /hedwig.cgi HTTP/1.1
+Host: 192.168.33.132:33125
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0
+Accept: */*
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml
+Content-Length: 556
+Origin: http://192.168.33.132:33125
+Connection: keep-alive
+Referer: http://192.168.33.132:33125/adv_inb_filter.php
+Cookie: uid=pafBPXRx8T
+Priority: u=0
+
+<?xml version="1.0" encoding="UTF-8"?>
+<postxml>
+<module>
+	<service>INBFILTER</service>
+	<acl>
+		<inbfilter>		
+						<seqno>1</seqno>
+			<max>24</max>
+			<count>1</count>
+
+		<entry><uid></uid><description>12366</description><act>allow</act><iprange><entry><uid></uid><seq>1</seq><enable>1</enable><startip>1.0.0.10</startip><endip>1.0.0.19</endip></entry><entry><uid></uid><seq>2</seq><enable>0</enable><startip>8.8.8.8</startip><endip>255.255.255.0</endip></entry></iprange></entry></inbfilter>		
+	</acl>
+	<ACTIVATE>ignore</ACTIVATE>
+</module>
+</postxml>

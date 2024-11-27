@@ -1,0 +1,37 @@
+version: '1'
+info:
+  serial: BM-2024-00012
+  build_date: 2024-08-16
+  firmware:
+    architecture: ARM
+    sha256: 981ae43f0114432425f211783a4051a81f861b6f8208a9d80cb1528daf3bf296
+    vendor: Tenda
+    name: Tenda AC9
+    file_name: tenda_ac9.zip
+    version: V15.03.05.19
+    release_date: 2016-06-23
+    description: Tenda AC9 1200M Smart Dual-Band 802.11AC 2.4G/5G Gigabit
+emulation:
+  context: ./emulation
+  ip: 192.168.0.1
+  port: 80
+  interface: eth0
+seed:
+  directory: ./seed
+  list:
+  - seed_0
+  - seed_1
+  - seed_10
+  - seed_11
+  - seed_2
+  - seed_3
+  - seed_4
+  - seed_5
+  - seed_6
+  - seed_7
+  - seed_8
+  - seed_9
+authkeeper:
+  method: replay
+  script_path: ./auth/replay.py
+  test_seed: seed_0

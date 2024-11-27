@@ -1,0 +1,10 @@
+GET /auth.bmp HTTP/1.1
+Host: 192.168.33.53:32770
+Accept-Language: zh-CN,zh;q=0.9
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.6723.70 Safari/537.36
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Referer: http://192.168.33.53:32770/login.asp
+Accept-Encoding: gzip, deflate, br
+Cookie: dlink_uid=wnmuscuyur
+Connection: keep-alive
+

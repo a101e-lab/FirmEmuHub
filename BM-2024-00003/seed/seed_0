@@ -1,0 +1,14 @@
+POST /apply.cgi HTTP/1.1
+Host: 172.17.0.2
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:107.0) Gecko/20100101 Firefox/107.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 1005
+Origin: http://172.17.0.2
+Connection: close
+Referer: http://172.17.0.2/wizard_wan.asp
+Upgrade-Insecure-Requests: 1
+
+html_response_page=wizard_wan1.asp&html_response_return_page=wizard_wan1.asp&reboot_type=none&asp_temp_43=false&asp_temp_00=&asp_temp_01=-128&asp_temp_02=dhcpc&asp_temp_41=4&asp_temp_03=00%3A01%3A23%3A45%3A67%3A8a&asp_temp_04=DIR-825&asp_temp_05=0.0.0.0&asp_temp_06=0.0.0.0&asp_temp_07=0.0.0.0&asp_temp_08=0&asp_temp_09=0.0.0.0&asp_temp_10=0.0.0.0&asp_temp_11=1&asp_temp_12=&asp_temp_13=&asp_temp_14=&asp_temp_15=0.0.0.0&asp_temp_16=1&asp_temp_17=&asp_temp_18=&asp_temp_19=0.0.0.0&asp_temp_20=0.0.0.0&asp_temp_21=0.0.0.0&asp_temp_22=&asp_temp_23=1&asp_temp_24=&asp_temp_25=&asp_temp_26=0.0.0.0&asp_temp_27=0.0.0.0&asp_temp_28=0.0.0.0&asp_temp_29=&asp_temp_30=&asp_temp_31=&asp_temp_32=sm-server&asp_temp_33=&asp_temp_45=0%2F%2F0.0.0.0%2F0.0.0.0%2F0.0.0.0%2FWAN%2F1&asp_temp_46=0%2F%2F0.0.0.0%2F0.0.0.0%2F0.0.0.0%2FWAN%2F1&asp_temp_47=0%2F%2F0.0.0.0%2F0.0.0.0%2F0.0.0.0%2FWAN%2F1&asp_temp_48=0%2F%2F0.0.0.0%2F0.0.0.0%2F0.0.0.0%2FWAN%2F1&asp_temp_49=0%2F%2F0.0.0.0%2F0.0.0.0%2F0.0.0.0%2FWAN%2F1&next_b2=Next

@@ -1,0 +1,28 @@
+POST /hedwig.cgi HTTP/1.1
+Host: 192.168.0.1
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:107.0) Gecko/20100101 Firefox/107.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml
+Content-Length: 463
+Origin: http://192.168.0.1
+Connection: keep-alive
+Referer: http://192.168.0.1/adv_app.php
+Cookie: uid=QlEHqQ2p0q
+
+<?xml version="1.0" encoding="UTF-8"?>
+<postxml>
+<module>
+	<service>PORTT.NAT-1</service>
+	<nat>
+		<entry>
+			<porttrigger>
+				<seqno>1</seqno>
+				<max>24</max>
+				<count>1</count>
+			<entry><enable>1</enable><schedule></schedule><description>po</description><trigger><protocol>TCP</protocol><start>25</start><end></end></trigger><external><protocol>UDP</protocol><portlist>26</portlist></external></entry></porttrigger>
+		</entry>
+	</nat>
+</module>
+</postxml>

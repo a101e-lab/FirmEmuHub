@@ -1,0 +1,15 @@
+POST /adv_arpspoofing.php HTTP/1.1
+Host: 0.0.0.0:49157
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 212
+Origin: http://0.0.0.0:49157
+Connection: keep-alive
+Referer: http://0.0.0.0:49157/adv_arpspoofing.php
+Cookie: uid=xkbzmm1Deq; session_uid=vkcfwkbdyh; auth_key=OH+AlvVFBzO2mvtDBX+qxyNjY2OaY2PHY2MYY2OWY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjYw==
+Upgrade-Insecure-Requests: 1
+
+ACTION_POST=adv_arpspoofing&which_delete=&which_edit=&harp_mac=00%3A15%3A5D%3A01%3A70%3A29&action=add&arp_state=1&ip_addr=192.168.0.22&mac_addr1=00&mac_addr2=15&mac_addr3=5d&mac_addr4=01&mac_addr5=70&mac_addr6=29

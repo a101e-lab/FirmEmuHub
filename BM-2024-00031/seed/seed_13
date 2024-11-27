@@ -1,0 +1,15 @@
+POST /cgi-bin/dns.asp?Rtabhead=Advanced HTTP/1.1
+Host: 192.168.1.1
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:107.0) Gecko/20100101 Firefox/107.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 256
+Origin: http://192.168.1.1
+Connection: keep-alive
+Referer: http://192.168.1.1/cgi-bin/dns.asp?Rtabhead=Advanced
+Cookie: SESSIONID=04d4df32; UID=admin; PSW=admin
+Upgrade-Insecure-Requests: 1
+
+Enable_DNS=0&EnableDDNS=on&dyndns_Address=DynDNS.org%28Custom%29&Dlink_Ddns_Mode=DynDNS.org%28Custom%29&dyndns_host=myhost.mydomain.net&dyndns_user=admin&dyndns_pass=admin&confirm_dyndns_pass=admin&Enable_DNS_H=0&EnableDDNS_H=Yes&SubmitFlag=1&PVC0IspType=3

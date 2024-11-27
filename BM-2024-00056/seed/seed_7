@@ -1,0 +1,18 @@
+POST /cgi?2 HTTP/1.1
+Host: 192.168.69.4:49153
+Content-Length: 128
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.5563.111 Safari/537.36
+Content-Type: text/plain
+Accept: */*
+Origin: http://192.168.69.4:49153
+Referer: http://192.168.69.4:49153/mainFrame.htm
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: Authorization=Basic YWRtaW46YWRtaW4=
+Connection: close
+
+[LAN_WLAN_MACTABLEENTRY#1,1,1,0,0,0#0,0,0,0,0,0]0,4
+Enabled=1
+MACAddress=00:01:6C:06:A6:29
+Description=1234
+HostName=wlan0

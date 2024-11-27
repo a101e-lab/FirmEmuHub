@@ -1,0 +1,55 @@
+version: '1'
+info:
+  serial: BM-2024-00033
+  build_date: 2024-07-22
+  firmware:
+    architecture: MIPSEB
+    sha256: 98f42f6f182a08ef91f93426533a7dd624c1fc661f16b22c2be0969213801463
+    vendor: D-Link
+    name: DAP-2360
+    file_name: DAP2360_REVB_FW_v207-rc043.bin
+    version: v2.07
+    release_date: 2016-03-11
+    description: Wireless N PoE Access Point
+emulation:
+  context: ./emulation
+  ip: 192.168.0.50
+  port: 80
+  interface: tap
+seed:
+  directory: ./seed
+  list:
+  - seed_0
+  - seed_1
+  - seed_10
+  - seed_11
+  - seed_12
+  - seed_13
+  - seed_14
+  - seed_15
+  - seed_16
+  - seed_17
+  - seed_18
+  - seed_19
+  - seed_2
+  - seed_20
+  - seed_21
+  - seed_22
+  - seed_23
+  - seed_24
+  - seed_25
+  - seed_26
+  - seed_27
+  - seed_28
+  - seed_29
+  - seed_3
+  - seed_4
+  - seed_5
+  - seed_6
+  - seed_7
+  - seed_8
+  - seed_9
+authkeeper:
+  method: update
+  script_path: ./auth/update.py
+  test_seed: seed_1

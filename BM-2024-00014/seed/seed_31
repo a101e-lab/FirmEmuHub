@@ -1,0 +1,38 @@
+POST /cgi?2&2&2&2&2&2&2&2&2&2&2&1 HTTP/1.1
+Host: 192.168.33.166:33235
+Content-Length: 1185
+Accept-Language: en-US,en;q=0.9
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.6668.71 Safari/537.36
+Content-Type: text/plain
+Accept: */*
+Origin: http://192.168.33.166:33235
+Referer: http://192.168.33.166:33235/mainFrame.htm
+Accept-Encoding: gzip, deflate, br
+Cookie: Authorization=Basic YWRtaW46YWRtaW4=
+Connection: keep-alive
+
+[WAN_IP_CONN#1,1,1,0,0,0#0,0,0,0,0,0]0,2
+MACAddressOverride=1
+X_TP_ClonedMACAddress=00:0A:EB:13:09:6B
+[WAN_IP_CONN#1,1,2,0,0,0#0,0,0,0,0,0]1,2
+MACAddressOverride=1
+X_TP_ClonedMACAddress=00:0A:EB:13:09:6B
+[WAN_IP_CONN#1,1,3,0,0,0#0,0,0,0,0,0]2,2
+MACAddressOverride=1
+X_TP_ClonedMACAddress=00:0A:EB:13:09:6B
+[WAN_IP_CONN#1,1,4,0,0,0#0,0,0,0,0,0]3,2
+MACAddressOverride=1
+X_TP_ClonedMACAddress=00:0A:EB:13:09:6B
+[WAN_IP_CONN#1,1,5,0,0,0#0,0,0,0,0,0]4,2
+MACAddressOverride=1
+X_TP_ClonedMACAddress=00:0A:EB:13:09:6B
+[WAN_PPP_CONN#1,1,1,0,0,0#0,0,0,0,0,0]5,2
+MACAddressOverride=1
+X_TP_ClonedMACAddress=00:0A:EB:13:09:6B
+[WAN_PPP_CONN#1,1,2,0,0,0#0,0,0,0,0,0]6,2
+MACAddressOverride=1
+X_TP_ClonedMACAddress=00:0A:EB:13:09:6B
+[WAN_L2TP_CONN#1,1,0,0,0,0#0,0,0,0,0,0]7,2
+MACAddressOverride=1
+clonedMACAddress=00:0A:EB:13:09:6B
+[WAN_L2TP_CONN#2,

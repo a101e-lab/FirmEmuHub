@@ -1,0 +1,50 @@
+version: '1'
+info:
+  serial: BM-2024-00029
+  build_date: 2024-07-22
+  firmware:
+    architecture: MIPSEB
+    sha256: 2cdd45b55307010369ca62e6d427ea41d46f28867d6f43660b3ded557ef271ce
+    vendor: D-Link
+    name: DAP-2330
+    file_name: DAP2330-firmware-v107-rc028.bin
+    version: v1.07
+    release_date: 2016-03-16
+    description: The DAP-2330 is an 802.11n ceiling/wall mount Gigabit PoE Access
+      Point, ideal for wireless networks in high traffic areas such as airports, coffee
+      shops, shopping centers, sporting venues, hotels, and campus deployments. At
+      transfer rates of up to 300Mbps in the 2.4GHz frequency range, users are able
+      to connect with legacy 802.11g adapters as well as the latest 802.11n adapters
+      to enjoy faster downloads and instant communication.
+emulation:
+  context: ./emulation
+  ip: 192.168.0.50
+  port: 80
+  interface: tap
+seed:
+  directory: ./seed
+  list:
+  - seed_0
+  - seed_1
+  - seed_10
+  - seed_11
+  - seed_12
+  - seed_13
+  - seed_14
+  - seed_15
+  - seed_16
+  - seed_17
+  - seed_18
+  - seed_19
+  - seed_2
+  - seed_3
+  - seed_4
+  - seed_5
+  - seed_6
+  - seed_7
+  - seed_8
+  - seed_9
+authkeeper:
+  method: update
+  script_path: ./auth/update.py
+  test_seed: seed_2

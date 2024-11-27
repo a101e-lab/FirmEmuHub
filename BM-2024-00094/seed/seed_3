@@ -1,0 +1,15 @@
+POST /adv_8021q.php HTTP/1.1
+Host: 192.168.33.132:33137
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 636
+Origin: http://192.168.33.132:33137
+Connection: close
+Referer: http://192.168.33.132:33137/adv_8021q.php?evid=1&vlan_enable=1
+Upgrade-Insecure-Requests: 1
+Priority: u=4
+
+ACTION_POST=adv_8021q&f_ath1_egress=2&f_ath2_egress=2&f_ath3_egress=2&f_ath4_egress=2&f_ath5_egress=&f_ath6_egress=&f_ath7_egress=&f_ath8_egress=&f_ath9_egress=2&f_ath10_egress=2&f_ath11_egress=2&f_ath12_egress=2&f_ath13_egress=&f_ath14_egress=&f_ath15_egress=&f_ath16_egress=&f_eth_egress=2&f_sys_egress=2&f_apply=rule_add&f_rule_edit=1&f_rule_del=&f_vlan=1&f_vid=1&f_ssid=default&f_pvid_auto=0&f_admin_pvid=&f_eth_pvid=&f_pri_pvid=&f_ms_1_pvid=&f_wds_1_pvid=&f_ms_2_pvid=&f_wds_2_pvid=&f_ms_3_pvid=&f_wds_3_pvid=&f_ms_4_pvid=&f_wds_4_pvid=&f_ms_5_pvid=&f_wds_5_pvid=&f_ms_6_pvid=&f_wds_6_pvid=&f_ms_7_pvid=&f_wds_7_pvid=&f_wds_8_pvid=

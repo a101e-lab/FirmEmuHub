@@ -1,0 +1,11 @@
+GET /OLDUNVNAISLZRVGB/userRpm/FixMapCfgRpm.htm?Mac=78-2B-46-90-5c-67&Ip=192.168.0.5&State=1&Changed=0&SelIndex=0&Page=1&Save=Save HTTP/1.1
+Host: 0.0.0.0:49156
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Referer: http://0.0.0.0:49156/OLDUNVNAISLZRVGB/userRpm/FixMapCfgRpm.htm?Add=Add&Page=1
+Cookie: Authorization=Basic%20YWRtaW46MjEyMzJmMjk3YTU3YTVhNzQzODk0YTBlNGE4MDFmYzM%3D
+Upgrade-Insecure-Requests: 1
+

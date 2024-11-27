@@ -1,0 +1,17 @@
+POST /HNAP1/ HTTP/1.1
+Host: 192.168.69.4:49156
+Content-Length: 435
+Accept: */*
+X-Requested-With: XMLHttpRequest
+HNAP_AUTH: 8635BEFC85321A17CCC5769A9460D91A 1678688895
+SOAPAction: "http://purenetworks.com/HNAP1/Login"
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.5563.65 Safari/537.36
+Content-Type: text/xml; charset=UTF-8
+Origin: http://192.168.69.4:49156
+Referer: http://192.168.69.4:49156/info/Login.html
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: uid=1DxjTdrdX
+Connection: close
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><Login xmlns="http://purenetworks.com/HNAP1/"><Action>login</Action><Username>Admin</Username><LoginPassword>947F11693CFECD439A06B3D8ED1ABFF1</LoginPassword><Captcha>BQW59</Captcha></Login></soap:Body></soap:Envelope>

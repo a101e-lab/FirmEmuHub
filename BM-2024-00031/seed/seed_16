@@ -1,0 +1,15 @@
+POST /cgi-bin/wirelessadv_wps.asp?Rtabhead=Advanced HTTP/1.1
+Host: 192.168.1.1
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:107.0) Gecko/20100101 Firefox/107.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 96
+Origin: http://192.168.1.1
+Connection: keep-alive
+Referer: http://192.168.1.1/cgi-bin/wirelessadv_wps.asp?Rtabhead=Advanced
+Cookie: SESSIONID=04d4df32; UID=admin; PSW=admin
+Upgrade-Insecure-Requests: 1
+
+WpsOOB=1&AdvWlan_wifisc_enable=true&WPSOnOff=&AdvWlan_wifisc_ap_locked=&AdvWlan_wifisc_setflag=2

@@ -1,0 +1,11 @@
+GET /userRpm/PPPoECfgRpm.htm?wan=0&wantype=2&acc=username&psw=password&confirm=password&SecType=2&sta_ip=172.168.1.3&sta_mask=255.255.255.0&linktype=1&waittime=15&Connect=Connect HTTP/1.1
+Host: 192.168.0.1
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:107.0) Gecko/20100101 Firefox/107.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Authorization: Basic YWRtaW46YWRtaW4=
+Connection: keep-alive
+Referer: http://192.168.0.1/userRpm/PPPoECfgRpm.htm?wan=0
+Upgrade-Insecure-Requests: 1
+

@@ -1,0 +1,42 @@
+version: '1'
+info:
+  serial: BM-2024-00070
+  build_date: 2024-07-23
+  firmware:
+    architecture: MIPSEB
+    sha256: 65b00ae0ff4621f22146a04ebefaad5f4838b00d61408bd9971fe57b757dbcee
+    vendor: D-Link
+    name: DIR-850L
+    file_name: dlink_DIR_850L_Version_A1.13.zip
+    version: A1.13
+    release_date: 2015-04-29
+    description: AC1200 Dual-Band WI-FI Gigabit Router
+emulation:
+  context: ./emulation
+  ip: 192.168.0.1
+  port: 80
+  interface: tap
+seed:
+  directory: ./seed
+  list:
+  - seed-0
+  - seed-1
+  - seed-10
+  - seed-11
+  - seed-12
+  - seed-13
+  - seed-14
+  - seed-15
+  - seed-16
+  - seed-2
+  - seed-3
+  - seed-4
+  - seed-5
+  - seed-6
+  - seed-7
+  - seed-8
+  - seed-9
+authkeeper:
+  method: update
+  script_path: ./auth/update.py
+  test_seed: seed-0

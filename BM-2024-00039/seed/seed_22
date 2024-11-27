@@ -1,0 +1,11 @@
+GET /userRpm/WpsCfgRpm.htm?WpsAddDevMode=1&DevPin=12345678&vapIdx=1&NewDevCfg=Connect HTTP/1.1
+Host: 192.168.33.139:32781
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15
+Referer: http://192.168.33.139:32781/userRpm/WpsCfgRpm.htm?NewDev=value
+Authorization: Basic YWRtaW46YWRtaW4=
+Accept-Language: zh-CN,zh-Hans;q=0.9
+

@@ -1,0 +1,11 @@
+GET /KKPWGTGBRGHDXVRC/userRpm/WlanSecurityRpm.htm?pskSecOpt=2&pskCipher=3&pskSecret=12345670&interval=0&secType=2&wpaSecOpt=3&wpaCipher=3&radiusIp=192.168.0.1&radiusPort=1812&radiusSecret=192.168.0.2&intervalWpa=0&wepSecOpt=3&keytype=1&keynum=1&key1=&length1=0&key2=&length2=0&key3=&length3=0&key4=&length4=0&Save=Save HTTP/1.1
+Host: 192.168.2.139:52910
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/109.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Referer: http://192.168.2.139:52910/KKPWGTGBRGHDXVRC/userRpm/WlanSecurityRpm.htm?secType=3&pskSecOpt=2&pskCipher=3&pskSecret=12345670&interval=0&wpaSecOpt=3&wpaCipher=3&radiusIp=&radiusPort=1812&radiusSecret=&intervalWpa=0&wepSecOpt=3&keytype=1&keynum=1&key1=&length1=0&key2=&length2=0&key3=&length3=0&key4=&length4=0&Save=Save
+Cookie: Authorization=Basic%20YWRtaW46MjEyMzJmMjk3YTU3YTVhNzQzODk0YTBlNGE4MDFmYzM%3D
+Upgrade-Insecure-Requests: 1
+

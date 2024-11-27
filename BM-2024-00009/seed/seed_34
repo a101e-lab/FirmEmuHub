@@ -1,0 +1,17 @@
+POST /HNAP1/ HTTP/1.1
+Host: 172.17.0.2
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/110.0
+Accept: application/json, text/javascript, */*; q=0.01
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Content-Type: application/json; charset=utf-8
+SOAPAction: "http://purenetworks.com/HNAP1/Login"
+HNAP_AUTH: C1D2B91D81A63CAFB264DD54931BB626 1677494649102
+X-Requested-With: XMLHttpRequest
+Content-Length: 142
+Origin: http://172.17.0.2
+Connection: keep-alive
+Referer: http://172.17.0.2/Login.html?t=1677494642021
+Cookie: PHPSESSID=7bd4dcd91dfa377b871938417f3cfae0; timeout=0; uid=0z18tSvo; PrivateKey=C8C6598650741FB7A3DE87361E6B75BC
+
+{"Login":{"Action":"login","Username":"admin","LoginPassword":"CC08384292619B2D21B64951CD235DEA","Captcha":"","PrivateLogin":"LoginPassword"}}

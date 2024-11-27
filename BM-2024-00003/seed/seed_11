@@ -1,0 +1,14 @@
+POST /apply.cgi HTTP/1.1
+Host: 172.17.0.2
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:107.0) Gecko/20100101 Firefox/107.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 657
+Origin: http://172.17.0.2
+Connection: close
+Referer: http://172.17.0.2/adv_wlan_perform.asp
+Upgrade-Insecure-Requests: 1
+
+html_response_page=back.asp&html_response_message=The+new+settings+have+been+saved.&html_response_return_page=adv_wlan_perform.asp&reboot_type=wireless&wlan0_auto_txrate=1&wlan0_wmm_enable=1&wlan0_11d_enable=0&wlan0_partition=0&wlan0_short_gi=1&wlan1_auto_txrate=&wlan1_wmm_enable=1&wlan1_11d_enable=0&wlan1_partition=0&wlan1_short_gi=1&button=Save+Settings&wlan0_txpower=15&wlan0_beacon_interval=100&wlan0_rts_threshold=2347&wlan0_fragmentation=2346&wlan0_dtim=1&wlan0_wmm_enable_sel=1&wlan0_short_gi_sel=1&wlan1_txpower=19&wlan1_beacon_interval=200&wlan1_rts_threshold=2347&wlan1_fragmentation=2346&wlan1_dtim=1&wlan1_wmm_enable_sel=1&wlan1_short_gi_sel=1

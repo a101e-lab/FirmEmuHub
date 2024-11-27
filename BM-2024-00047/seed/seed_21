@@ -1,0 +1,15 @@
+POST /adv_macbypass.php HTTP/1.1
+Host: 0.0.0.0:49154
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 146
+Origin: http://0.0.0.0:49154
+Connection: keep-alive
+Referer: http://0.0.0.0:49154/adv_macbypass.php?band_reload=0&index_reload=1
+Cookie: dlink_uid=jfdongizpf; session_uid=hlkpqjmh
+Upgrade-Insecure-Requests: 1
+
+ACTION_POST=adv_macbypass&f_ssid=&f_mac=&f_action=&which_del=&ssid_index=1&cap_mac1=00&cap_mac2=1b&cap_mac3=44&cap_mac4=11&cap_mac5=3a&cap_mac6=b7

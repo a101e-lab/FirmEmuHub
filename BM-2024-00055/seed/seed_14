@@ -1,0 +1,16 @@
+POST /cgi?2 HTTP/1.1
+Host: 192.168.69.4:49154
+Connection: keep-alive
+Content-Length: 87
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+Content-Type: text/plain
+Accept: */*
+Origin: http://192.168.69.4:49154
+Referer: http://192.168.69.4:49154/mainFrame.htm
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: Authorization=Basic YWRtaW46YWRtaW4=
+
+[LAN_WLAN_WPS#1,1,0,0,0,0#0,0,0,0,0,0]0,2
+X_TP_State=InProgress
+X_TP_PeerPassword=0

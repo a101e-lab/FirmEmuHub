@@ -1,0 +1,19 @@
+POST /cgi?2 HTTP/1.1
+Host: 192.168.69.4:49153
+Content-Length: 214
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.5563.111 Safari/537.36
+Content-Type: text/plain
+Accept: */*
+Origin: http://192.168.69.4:49153
+Referer: http://192.168.69.4:49153/mainFrame.htm
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: Authorization=Basic YWRtaW46YWRtaW4=
+Connection: close
+
+[TIME#0,0,0,0,0,0#0,0,0,0,0,0]0,5
+daylightSavingsUsed=1
+daylightSavingsStart=1970-03-29T01:00:00
+daylightSavingsEnd=1970-10-25T02:00:00
+X_TP_DaylightSavingsStartWeekCount=5
+X_TP_DaylightSavingsEndWeekCount=5

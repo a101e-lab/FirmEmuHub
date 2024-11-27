@@ -1,0 +1,15 @@
+POST /apply.cgi HTTP/1.1
+Host: 0.0.0.0:49155
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 2306
+Origin: http://0.0.0.0:49155
+Connection: keep-alive
+Referer: http://0.0.0.0:49155/adv_filters_url.asp
+Cookie: uid=xkbzmm1Deq; session_uid=vkcfwkbdyh; auth_key=OH+ABPVFwzO2x/tDln+qxwRjY2MYY2MEY2MEY2MHY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjYw==
+Upgrade-Insecure-Requests: 1
+
+html_response_page=back.asp&html_response_message=The+setting+is+saved.&html_response_return_page=adv_filters_url.asp&reboot_type=filter&url_domain_filter_00=www.baidu.com&url_domain_filter_01=&url_domain_filter_02=&url_domain_filter_03=&url_domain_filter_04=&url_domain_filter_05=&url_domain_filter_06=&url_domain_filter_07=&url_domain_filter_08=&url_domain_filter_09=&url_domain_filter_10=&url_domain_filter_11=&url_domain_filter_12=&url_domain_filter_13=&url_domain_filter_14=&url_domain_filter_15=&url_domain_filter_16=&url_domain_filter_17=&url_domain_filter_18=&url_domain_filter_19=&url_domain_filter_20=&url_domain_filter_21=&url_domain_filter_22=&url_domain_filter_23=&url_domain_filter_24=&url_domain_filter_25=&url_domain_filter_26=&url_domain_filter_27=&url_domain_filter_28=&url_domain_filter_29=&url_domain_filter_30=&url_domain_filter_31=&url_domain_filter_32=&url_domain_filter_33=&url_domain_filter_34=&url_domain_filter_35=&url_domain_filter_36=&url_domain_filter_37=&url_domain_filter_38=&url_domain_filter_39=&hid_type_filter_00=NEW&hid_type_filter_01=QRY&hid_type_filter_02=QRY&hid_type_filter_03=QRY&hid_type_filter_04=QRY&hid_type_filter_05=QRY&hid_type_filter_06=QRY&hid_type_filter_07=QRY&hid_type_filter_08=QRY&hid_type_filter_09=QRY&hid_type_filter_10=QRY&hid_type_filter_11=QRY&hid_type_filter_12=QRY&hid_type_filter_13=QRY&hid_type_filter_14=QRY&hid_type_filter_15=QRY&hid_type_filter_16=QRY&hid_type_filter_17=QRY&hid_type_filter_18=QRY&hid_type_filter_19=QRY&hid_type_filter_20=QRY&hid_type_filter_21=QRY&hid_type_filter_22=QRY&hid_type_filter_23=QRY&hid_type_filter_24=QRY&hid_type_filter_25=QRY&hid_type_filter_26=QRY&hid_type_filter_27=QRY&hid_type_filter_28=QRY&hid_type_filter_29=QRY&hid_type_filter_30=QRY&hid_type_filter_31=QRY&hid_type_filter_32=QRY&hid_type_filter_33=QRY&hid_type_filter_34=QRY&hid_type_filter_35=QRY&hid_type_filter_36=QRY&hid_type_filter_37=QRY&hid_type_filter_38=QRY&hid_type_filter_39=QRY&url_domain_filter_type=list_allow&url_0=www.baidu.com&url_1=&url_2=&url_3=&url_4=&url_5=&url_6=&url_7=&url_8=&url_9=&url_10=&url_11=&url_12=&url_13=&url_14=&url_15=&url_16=&url_17=&url_18=&url_19=&url_20=&url_21=&url_22=&url_23=&url_24=&url_25=&url_26=&url_27=&url_28=&url_29=&url_30=&url_31=&url_32=&url_33=&url_34=&url_35=&url_36=&url_37=&url_38=&url_39=

@@ -1,0 +1,11 @@
+GET /userRpm/WlanAdvRpm.htm?txPower=3&beaconPeriod=102&rtsThreshold=2346&dtimInterval=1&wmm=2&shortGI=2&Save=Save HTTP/1.1
+Host: 0.0.0.0:49156
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Authorization: Basic YWRtaW46YWRtaW4=
+Connection: close
+Referer: http://0.0.0.0:49156/userRpm/WlanAdvRpm.htm
+Upgrade-Insecure-Requests: 1
+

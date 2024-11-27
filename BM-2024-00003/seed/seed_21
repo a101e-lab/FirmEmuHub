@@ -1,0 +1,14 @@
+POST /apply.cgi HTTP/1.1
+Host: 172.17.0.2
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:107.0) Gecko/20100101 Firefox/107.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 452
+Origin: http://172.17.0.2
+Connection: close
+Referer: http://172.17.0.2/wizard_wlan.asp
+Upgrade-Insecure-Requests: 1
+
+html_response_page=wizard_wlan2.asp&html_response_return_page=wizard_wlan.asp&reboot_type=none&asp_temp_34=dlink&asp_temp_35=3&asp_temp_36=hex&asp_temp_37=7ec61272743bf1614726446a6c38ced166f6ca76eb5430044286346cef130f92&asp_temp_50=1&asp_temp_67=dlink_media&asp_temp_68=3&asp_temp_69=hex&asp_temp_70=3200144c7adda279b0467de0d218a6cc14811c977750070f9d6f361edcadcbab&asp_temp_71=1&show_ssid_0=dlink&show_ssid_1=dlink_media&auto_next_page=wizard_wlan2.asp

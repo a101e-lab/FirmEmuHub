@@ -1,0 +1,16 @@
+POST /st_logs.php HTTP/1.1
+Host: 192.168.33.166:33549
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 337
+Origin: http://192.168.33.166:33549
+Connection: keep-alive
+Referer: http://192.168.33.166:33549/st_logs.php
+Cookie: dlink_uid=gjbnzegntv
+Upgrade-Insecure-Requests: 1
+
+ACTION_POST=st_logs&log_ip=192.168.0.100&system_activity=1&wireless_activity=1&notice=1&smtp_enable=1&email_type=2&auth_enable=1&ssl_enable=1&smtp_from_email=admin@example.com&smtp_to_email=receiver@example.com&smtp_ip=smtp.gmail.com&smtp_port=587&
+smtp_name=admin&smtp_password=password123&confirm_password=password123&log_schedule=360

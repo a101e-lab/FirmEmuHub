@@ -1,0 +1,11 @@
+GET /userRpm/ParentCtrlRpm.htm?child_mac=A6-CA-2F-00-EB-67&lan_lists=0&url_comment=1&url_0=11&url_1=&url_2=&url_3=&url_4=&url_5=&url_6=&url_7=&scheds_lists=255&enable=1&Changed=0&SelIndex=0&Page=1&rule_mode=0&Save=Save HTTP/1.1
+Host: 192.168.1.1
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:107.0) Gecko/20100101 Firefox/107.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Authorization: Basic YWRtaW46YWRtaW4=
+Connection: keep-alive
+Referer: http://192.168.1.1/userRpm/ParentCtrlRpm.htm?Add=Add&Page=1
+Upgrade-Insecure-Requests: 1
+

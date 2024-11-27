@@ -1,0 +1,46 @@
+/auto>
+					<index/>
+				</mcs>
+			</dot11n>
+			<wmm>
+				<enable>1</enable>
+			</wmm>
+			<coexistence>
+				<enable>1</enable>
+			</coexistence>
+			<freq>5</freq>
+			<band>11ACNA</band>
+			<maxstanum>
+				<enable>0</enable>
+				<maxstanum>20</maxstanum>
+			</maxstanum>
+		</media>
+		<macclone>        
+			<type>DISABLED</type>
+			<macaddr/>
+		</macclone>
+	</phyinf>
+</module>
+<module>
+	<service>PHYINF.WIFI</service>
+	<FATLADY>ignore</FATLADY>
+	<SETCFG>ignore</SETCFG>
+</module>
+<module>
+	<service>RUNTIME.WPS</service>
+	<runtime>
+		<wps>
+  	<setting><aplocked>0</aplocked></setting></wps>
+	</runtime>
+</module>
+<module>
+	<service>RUNTIME.SWITCHMODE</service>
+	<runtime>
+		<device>
+			<switchmode>AP</switchmode>
+		</device>
+	</runtime>
+	<SETCFG>ignore</SETCFG>
+	<ACTIVATE>ignore</ACTIVATE>
+</module>
+</postxml>

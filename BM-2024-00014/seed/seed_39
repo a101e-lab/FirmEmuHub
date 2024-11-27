@@ -1,0 +1,34 @@
+POST /cgi?2&2&2 HTTP/1.1
+Host: 192.168.33.166:33235
+Content-Length: 516
+Accept-Language: en-US,en;q=0.9
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.6668.71 Safari/537.36
+Content-Type: text/plain
+Accept: */*
+Origin: http://192.168.33.166:33235
+Referer: http://192.168.33.166:33235/mainFrame.htm
+Accept-Encoding: gzip, deflate, br
+Cookie: Authorization=Basic YWRtaW46YWRtaW4=
+Connection: keep-alive
+
+[LAN_WLAN#1,1,0,0,0,0#0,0,0,0,0,0]0,10
+SSID=TP-LINK_0969
+Standard=n
+AutoChannelEnable=0
+Channel=8
+X_TP_Bandwidth=40M
+Enable=1
+SSIDAdvertisementEnabled=1
+WMMEnable=1
+X_TP_FragmentThreshold=2346
+RegulatoryDomain=US 
+[LAN_WLAN_MULTISSID#1,1,0,0,0,0#0,0,0,0,0,0]1,1
+multiSSIDEnable=0
+[LAN_WLAN_WDSBRIDGE#1,1,0,0,0,0#0,0,0,0,0,0]2,7
+BridgeEnable=1
+BridgeBSSID=00:1D:0F:11:22:33
+BridgeSSID=aa
+BridgeAuthMode=PSK2Authentication
+BridgeEncryptMode=TKIPEncryption
+BridgeKey=1234567890
+BridgeWepKeyIndex=1

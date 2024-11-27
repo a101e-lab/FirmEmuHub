@@ -1,0 +1,14 @@
+POST /getcfg.php HTTP/1.1
+Host: 0.0.0.0:49157
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 112
+Origin: http://0.0.0.0:49157
+Connection: keep-alive
+Referer: http://0.0.0.0:49157/status.php
+Cookie: uid=idEA6LhCZm
+
+SERVICES=RUNTIME.TIME%2CRUNTIME.PHYINF%2CWIFI.PHYINF%2CRUNTIME.INF.BRIDGE-1%2CINET.BRIDGE-1%2CRUNTIME.SWITCHMODE

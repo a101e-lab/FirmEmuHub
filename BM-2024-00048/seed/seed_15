@@ -1,0 +1,15 @@
+POST /adv_schedule.php HTTP/1.1
+Host: 0.0.0.0:49162
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 239
+Origin: http://0.0.0.0:49162
+Connection: keep-alive
+Referer: http://0.0.0.0:49162/adv_schedule.php
+Cookie: dlink_uid=jfdongizpf; session_uid=hlkpqjmh
+Upgrade-Insecure-Requests: 1
+
+ACTION_POST=adv_schedule&f_entry_del=&entry_edit=&f_add_value=1&f_day=&f_start_time=&f_end_time=&f_sce_idx=&f_ssid_select=&f_overnight=&schedule_status=1&name=88&index=0&ssid=dlink&day_select=1&mon=1&all_day=1&s_hr=4&s_min=8&e_hr=5&e_min=6

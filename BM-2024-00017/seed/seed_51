@@ -1,0 +1,79 @@
+POST /hedwig.cgi HTTP/1.1
+Host: 192.168.0.1
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:107.0) Gecko/20100101 Firefox/107.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml
+Content-Length: 1580
+Origin: http://192.168.0.1
+Connection: keep-alive
+Referer: http://192.168.0.1/tools_ddns.php
+Cookie: uid=nZqfRqH8fx
+
+<?xml version="1.0" encoding="UTF-8"?>
+<postxml>
+<module>
+	<service>DDNS6.WAN-1</service>
+	<ddns6>
+		<cnt>1</cnt>
+	<entry><enable>1</enable><v6addr>192.168.0.3</v6addr><hostname>ipv6.mydomain.net</hostname></entry></ddns6>
+</module>
+<module>
+	<service>DDNS4.WAN-1</service>
+	<ddns4>
+		<seqno>11</seqno>
+		<max>2</max>
+		<count>01</count>
+	<entry><uid>DDNS4-1</uid><provider>DLINK</provider><hostname>admin</hostname><username>admin</username><password>admin</password><interval>34020</interval></entry></ddns4>
+	<inf>
+		<uid>WAN-1</uid>
+		<active>1</active>
+		<phyinf>ETH-2</phyinf>
+		<defaultroute>100</defaultroute>
+		<inet>INET-3</inet>
+		<nat>NAT-1</nat>
+		<inf6to4/>
+		<icmp>DROP</icmp>
+		<bwc>BWC-1</bwc>
+		<open_dns>
+			<adv_dns_srv>
+				<dns1>204.194.232.200</dns1>
+				<dns2>204.194.234.200</dns2>
+			</adv_dns_srv>
+			<family_dns_srv>
+				<dns1>208.67.222.123</dns1>
+				<dns2>208.67.220.123</dns2>
+			</family_dns_srv>
+		</open_dns>
+	<ddns4>DDNS4-1</ddns4></inf>
+</module>
+<module>
+	<service>DDNS4.WAN-3</service>
+	<ddns4>
+		<seqno>1</seqno>
+		<max>2</max>
+		<count>0</count>
+	</ddns4>
+	<inf>
+		<uid>WAN-3</uid>
+		<name>IPv6 LL WAN</name>
+		<comment>The IPv6 link local WAN interface.</comment>
+		<active>1</active>
+		<phyinf>ETH-2</phyinf>
+		<inet>INET-8</inet>
+	</inf>
+<FATLADY>ignore</FATLADY><SETCFG>ignore</SETCFG><ACTIVATE>ignore</ACTIVATE></module>
+<module>
+	<service>RUNTIME.DDNS4.WAN-1</service>
+	<runtime>
+		<inf>
+			<ddns4>
+			</ddns4>
+		</inf>
+	</runtime>
+	<FATLADY>ignore</FATLADY>
+	<SETCFG>ignore</SETCFG>
+	<ACTIVATE>ignore</ACTIVATE>
+</module>
+</postxml>

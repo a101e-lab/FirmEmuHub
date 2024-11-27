@@ -1,0 +1,15 @@
+POST /adv_ap_array.php HTTP/1.1
+Host: 0.0.0.0:49157
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 719
+Origin: http://0.0.0.0:49157
+Connection: keep-alive
+Referer: http://0.0.0.0:49157/adv_ap_array.php
+Cookie: uid=xkbzmm1Deq; session_uid=vkcfwkbdyh; auth_key=OH+AlvVFBzO2mvtDBX+qxyNjY2OaY2PHY2MYY2OWY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjYw==
+Upgrade-Insecure-Requests: 1
+
+ACTION_POST=adv_ap_array&f_ap_array_enable=1&f_role=3&f_scan_value=&f_wlmode=&ap_array_enable=1&role=3&ap_array_name=d-link&ap_array_pwd=12345678&basic_setting=1&bsc_network_name=1&bsc_ssid_visibility=1&bsc_auto_chann=1&bsc_channel_width=1&bsc_security=1&bsc_band=1&adv_setting=1&adv_data_rate=1&adv_beacon_interval=1&adv_dtim=1&adv_transmit_power=1&adv_wmm_wifi=1&adv_ack_timeout=1&adv_acl=0&adv_short_gi=1&adv_link_integrity=1&adv_conn_limit=1&adv_igmp=0&mssid_vlan=0&mssid=1&mssid_visibility=1&msecurity=1&mwmm=1&vlan=1&adv_func=0&schedule_settings=1&qos_setting=1&log_setting=1&time_date=1&dhcp_svr_setting=1&admin_setting=1&sys_name_setting=1&snmp_setting=1&login_setting=1&console_setting=1&ping_control_setting=0

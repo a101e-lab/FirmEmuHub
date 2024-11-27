@@ -1,0 +1,41 @@
+version: '1'
+info:
+  serial: BM-2024-00049
+  build_date: 2024-07-22
+  firmware:
+    architecture: MIPSEL
+    sha256: e66faf456a957bc46b3298338f5c2afd3011b60fa09ad5219d8e7eb2c5863d44
+    vendor: D-Link
+    name: DAP-1665
+    file_name: DAP1665_FW202beta01_hboe.bin
+    version: v2.02
+    release_date:
+    description: Wireless AC1200 Wave 2 Dual-Band Access Point
+emulation:
+  context: ./emulation
+  ip: 192.168.0.50
+  port: 80
+  interface: tap
+seed:
+  directory: ./seed
+  list:
+  - seed_0
+  - seed_1
+  - seed_10
+  - seed_11
+  - seed_12
+  - seed_13
+  - seed_14
+  - seed_15
+  - seed_2
+  - seed_3
+  - seed_4
+  - seed_5
+  - seed_6
+  - seed_7
+  - seed_8
+  - seed_9
+authkeeper:
+  method: update
+  script_path: ./auth/update.py
+  test_seed: seed_15

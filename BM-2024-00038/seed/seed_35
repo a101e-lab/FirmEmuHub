@@ -1,0 +1,59 @@
+POST /hedwig.cgi HTTP/1.1
+Host: 172.17.0.2
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:107.0) Gecko/20100101 Firefox/107.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml
+Content-Length: 693
+Origin: http://172.17.0.2
+Connection: close
+Referer: http://172.17.0.2/bsc_media_server.php
+Cookie: uid=f5DQipViKY
+
+<?xml version="1.0" encoding="UTF-8"?>
+<postxml>
+<module>
+	<service>UPNPAV</service>
+	<upnpav>		
+					<dms>
+				<name>DIR817LW_DMS</name>
+				<active>1</active>
+				<rescan>0</rescan>
+				<sharepath>/</sharepath>
+			</dms>
+		
+	</upnpav>
+	<runtime>
+		<device>
+			<storage>
+				<count>1</count>
+			</storage>
+		</device>
+		<scan_media>
+			
+		</scan_media>
+	</runtime>		
+</module>
+<module>
+	<service>ITUNES</service>
+	<itunes>		
+					<server>
+				<active>0</active>
+				<rescan>0</rescan>
+				<sharepath>/</sharepath>
+			</server>
+		
+	</itunes>
+	<runtime>
+		<device>
+			<storage>
+				<count>1</count>
+			</storage>
+		</device>
+		<scan_media>
+			
+		</scan_media>
+	</runtime>		
+</module>
+</postxml>

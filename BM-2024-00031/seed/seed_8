@@ -1,0 +1,15 @@
+POST /cgi-bin/lan.asp?Rtabhead=Setup HTTP/1.1
+Host: 192.168.1.1
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:107.0) Gecko/20100101 Firefox/107.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 434
+Origin: http://192.168.1.1
+Connection: keep-alive
+Referer: http://192.168.1.1/cgi-bin/lan.asp?Rtabhead=Setup
+Cookie: SESSIONID=04d4df32; UID=admin; PSW=admin
+Upgrade-Insecure-Requests: 1
+
+LanRouter_Ip=192.168.1.1&LanRouter_Mask=255.255.255.0&LanDhcp_cbEnabSer=on&LanDhcp_IpBegin=192.168.1.2&LanDhcp_IpEnd=192.168.1.254&LanDhcp_Lstime_show=24&PoolSize=253&LanDhcp_TB_HostName=q&LanDhcp_TB_IP=192.168.1.6&LanDhcp_TB_Mac=fa%3Ade%3A11%3A14%3A8f%3A40&hidden_LeaseNum=0&LanDhcp_cbEnabSer_H=1&SubmitFlag=2&selectedStaticDhcpIndex=-1&empty_Entry=0&returnCurrentIndex=&LanDhcp_Lstime=86400&ClientMacAddr=fa%3Ade%3A11%3A14%3A8f%3A40

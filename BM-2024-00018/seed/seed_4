@@ -1,0 +1,42 @@
+POST /cgi?1&1&1&5&5&5&5&5&5&5 HTTP/1.1
+Host: 192.168.69.4:49156
+Content-Length: 714
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.5481.178 Safari/537.36
+Content-Type: text/plain
+Accept: */*
+Origin: http://192.168.69.4:49156
+Referer: http://192.168.69.4:49156/mainFrame.htm
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: Authorization=Basic YWRtaW46YWRtaW4=
+Connection: close
+
+[SYS_MODE#0,0,0,0,0,0#0,0,0,0,0,0]0,1
+mode
+[IGD#0,0,0,0,0,0#0,0,0,0,0,0]1,1
+LANDeviceNumberOfEntries
+[IGD_DEV_INFO#0,0,0,0,0,0#0,0,0,0,0,0]2,3
+softwareVersion
+hardwareVersion
+upTime
+[WAN_COMMON_INTF_CFG#0,0,0,0,0,0#0,0,0,0,0,0]3,1
+WANAccessType
+[WAN_IP_CONN#0,0,0,0,0,0#0,0,0,0,0,0]4,0
+[WAN_PPP_CONN#0,0,0,0,0,0#0,0,0,0,0,0]5,0
+[WAN_L2TP_CONN#0,0,0,0,0,0#0,0,0,0,0,0]6,0
+[WAN_PPTP_CONN#0,0,0,0,0,0#0,0,0,0,0,0]7,0
+[L2_BRIDGING_ENTRY#0,0,0,0,0,0#0,0,0,0,0,0]8,1
+bridgeName
+[LAN_WLAN#0,0,0,0,0,0#0,0,0,0,0,0]9,12
+status
+SSID
+BSSID
+channel
+autoChannelEnable
+standard
+beaconType
+basicEncryptionModes
+X_TP_Bandwidth
+possibleDataTransmitRates
+WPAAuthenticationMode
+IEEE11iAuthenticationMode

@@ -1,0 +1,34 @@
+POST /HNAP1/ HTTP/1.1
+Host: 192.168.0.1
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:107.0) Gecko/20100101 Firefox/107.0
+Accept: text/xml
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml
+SOAPACTION: "http://purenetworks.com/HNAP1/SetWLanRadioSettings"
+HNAP_AUTH: A33048515218345FC9D80BA23640C2F4 1676881880
+Content-Length: 651
+Origin: http://192.168.0.1
+Connection: keep-alive
+Referer: http://192.168.0.1/WiFi.html
+Cookie: uid=q21kdm55cw
+
+<?xml version="1.0" encoding="UTF-8"?>
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+<soap:Body>
+	<SetWLanRadioSettings xmlns="http://purenetworks.com/HNAP1/">
+		<Mode>802.11n</Mode>
+		<ChannelWidth>0</ChannelWidth>
+		<SSIDBroadcast>false</SSIDBroadcast>
+		<QoS/>
+		<Channel>36</Channel>
+		<SecondaryChannel/>
+		<SSID>dlink-5GHz</SSID>
+		<Enabled>true</Enabled>
+		<RadioID>RADIO_5GHz</RadioID>
+		<TXPower>50</TXPower>
+		<ScheduleName>ALWAYS</ScheduleName>
+		<Coexistence/>
+	</SetWLanRadioSettings>
+</soap:Body>
+</soap:Envelope>

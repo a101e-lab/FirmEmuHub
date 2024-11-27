@@ -1,0 +1,77 @@
+POST /hedwig.cgi HTTP/1.1
+Host: 172.17.0.2
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:107.0) Gecko/20100101 Firefox/107.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml
+Content-Length: 1285
+Origin: http://172.17.0.2
+Connection: close
+Referer: http://172.17.0.2/bsc_thunder.php
+Cookie: uid=uQXbZsDTwj
+
+<?xml version="1.0" encoding="UTF-8"?>
+<postxml>
+<module>
+	<service>THUNDER</service>
+	<thunder>
+		<active>1</active>
+		<down>10</down>
+		<up>-1</up>
+		<task>2</task>
+		<smart>1</smart>
+	</thunder>
+</module>
+<module>
+	<service>SAMBA</service>
+	<samba>
+		<auth>1</auth>
+		<name>111</name>
+		<password>1111</password>
+	</samba>
+</module>
+<module>
+	<service>RUNTIME.THUNDER</service>
+	<runtime>
+	<thunder>
+  	</thunder>
+	</runtime>
+<FATLADY>ignore</FATLADY><SETCFG>ignore</SETCFG><ACTIVATE>ignore</ACTIVATE></module>
+<module>
+	<service>RUNTIME.STORAGE</service>
+	<runtime>
+		<device>
+			<storage>
+				<count>1</count>
+				<disk>
+					<uid>SDA</uid>
+					<vendor>ATA</vendor>
+					<model>QEMU HARDDISK</model>
+					<mfact/>
+					<product/>
+					<serial/>
+					<size>67108864</size>
+					<count>1</count>
+					<entry>
+						<uid>SDA1</uid>
+						<prefix>sda</prefix>
+						<pid>1</pid>
+						<fs>ext2</fs>
+						<id>83</id>
+						<mntp>/var/tmp/storage/ATA_QEMU_HARDDISK_01</mntp>
+						<state>MOUNTED</state>
+						<space>
+							<size>62469</size>
+							<used>25945</used>
+							<available>33299</available>
+						</space>
+					</entry>
+				</disk>
+			</storage>
+		</device>
+	</runtime>
+	<SETCFG>ignore</SETCFG>
+	<ACTIVATE>ignore</ACTIVATE>
+<FATLADY>ignore</FATLADY></module>
+</postxml>

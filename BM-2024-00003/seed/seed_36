@@ -1,0 +1,14 @@
+POST /apply.cgi HTTP/1.1
+Host: 172.17.0.2
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:107.0) Gecko/20100101 Firefox/107.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 292
+Origin: http://172.17.0.2
+Connection: close
+Referer: http://172.17.0.2/wizard_ipv6_6rd.asp
+Upgrade-Insecure-Requests: 1
+
+html_response_page=wizard_ipv6_4.asp&html_response_message=&html_response_return_page=wizard_ipv6_4.asp&reboot_type=none&ipv6_wan_proto=ipv6_6rd&asp_temp_42=wizard_ipv6_6rd.asp&ipv6_6rd_prefix=192.168.3.1&ipv6_6rd_prefix_length=32&ipv6_6rd_relay=192.168.0.6&ipv6_6rd_primary_dns=&next_b2=Next

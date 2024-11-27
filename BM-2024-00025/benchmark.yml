@@ -1,0 +1,41 @@
+version: '1'
+info:
+  serial: BM-2024-00025
+  build_date: 2024-07-22
+  firmware:
+    architecture: MIPSEB
+    sha256: 95ec6814a4f42a98725421c81d050785dd3a704e27f6d7673ae46d58d9b6ec53
+    vendor: D-Link
+    name: DAP-2310
+    file_name: DAP2310_REVB_FW_patch_v207-rc031.bin
+    version: v2.07
+    release_date: 2016-03-11
+    description: Wireless N Access Point
+emulation:
+  context: ./emulation
+  ip: 192.168.0.50
+  port: 80
+  interface: tap
+seed:
+  directory: ./seed
+  list:
+  - seed_0
+  - seed_1
+  - seed_10
+  - seed_11
+  - seed_12
+  - seed_13
+  - seed_14
+  - seed_15
+  - seed_2
+  - seed_3
+  - seed_4
+  - seed_5
+  - seed_6
+  - seed_7
+  - seed_8
+  - seed_9
+authkeeper:
+  method: update
+  script_path: ./auth/update.py
+  test_seed: seed_0

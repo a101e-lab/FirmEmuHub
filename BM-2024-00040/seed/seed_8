@@ -1,0 +1,15 @@
+POST /apply.cgi HTTP/1.1
+Host: 0.0.0.0:49155
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 1494
+Origin: http://0.0.0.0:49155
+Connection: keep-alive
+Referer: http://0.0.0.0:49155/adv_qos.asp
+Cookie: uid=xkbzmm1Deq; session_uid=vkcfwkbdyh; auth_key=OH+ABPVFwzO2x/tDln+qxwRjY2MYY2MEY2MEY2MHY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjYw==
+Upgrade-Insecure-Requests: 1
+
+html_response_page=back.asp&html_response_message=The+setting+is+saved.&html_response_return_page=adv_qos.asp&reboot_type=qos&qos_rule_00=0%2F%2F1%2F0%2F0%2F6%2F0.0.0.0%2F255.255.255.255%2F0%2F65535%2F0.0.0.0%2F255.255.255.255%2F0%2F65535&qos_rule_01=0%2F%2F1%2F0%2F0%2F6%2F0.0.0.0%2F255.255.255.255%2F0%2F65535%2F0.0.0.0%2F255.255.255.255%2F0%2F65535&qos_rule_02=0%2F%2F1%2F0%2F0%2F6%2F0.0.0.0%2F255.255.255.255%2F0%2F65535%2F0.0.0.0%2F255.255.255.255%2F0%2F65535&qos_rule_03=0%2F%2F1%2F0%2F0%2F6%2F0.0.0.0%2F255.255.255.255%2F0%2F65535%2F0.0.0.0%2F255.255.255.255%2F0%2F65535&qos_rule_04=0%2F%2F1%2F0%2F0%2F6%2F0.0.0.0%2F255.255.255.255%2F0%2F65535%2F0.0.0.0%2F255.255.255.255%2F0%2F65535&qos_rule_05=0%2F%2F1%2F0%2F0%2F6%2F0.0.0.0%2F255.255.255.255%2F0%2F65535%2F0.0.0.0%2F255.255.255.255%2F0%2F65535&qos_rule_06=0%2F%2F1%2F0%2F0%2F6%2F0.0.0.0%2F255.255.255.255%2F0%2F65535%2F0.0.0.0%2F255.255.255.255%2F0%2F65535&qos_rule_07=0%2F%2F1%2F0%2F0%2F6%2F0.0.0.0%2F255.255.255.255%2F0%2F65535%2F0.0.0.0%2F255.255.255.255%2F0%2F65535&qos_rule_08=0%2F%2F1%2F0%2F0%2F6%2F0.0.0.0%2F255.255.255.255%2F0%2F65535%2F0.0.0.0%2F255.255.255.255%2F0%2F65535&qos_rule_09=0%2F%2F1%2F0%2F0%2F6%2F0.0.0.0%2F255.255.255.255%2F0%2F65535%2F0.0.0.0%2F255.255.255.255%2F0%2F65535&button=Save+Settings&qos_traffic_shaping=1&traffic_shaping=1&auto_uplink=0&qos_uplink=127&qos_max_trans_rate_select=0&qos_engine_enabled=1&qos_enable=1&qos_auto_classification=1&auto_classification=1&qos_dyn_frag=1&qos_dyn_fragmentation=1

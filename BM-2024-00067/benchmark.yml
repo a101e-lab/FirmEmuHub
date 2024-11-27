@@ -1,0 +1,51 @@
+version: '1'
+info:
+  serial: BM-2024-00067
+  build_date: 2024-07-23
+  firmware:
+    architecture: MIPSEL
+    sha256: d2d4a18de5a0cb4b7defe1c7c9f1c43b9bc670c4dca27bbe2ae547627a2e5769
+    vendor: TP-Link
+    name: Archer-C20
+    file_name: ArcherC20v1_0.9.1_0.2_up_boot(141217)_2014-12-17_11.01.36.bin
+    version: v1
+    release_date: 2014-12-17
+    description: AC750 Wireless Dual Band Router
+emulation:
+  context: ./emulation
+  ip: 192.168.0.1
+  port: 80
+  interface: tap
+seed:
+  directory: ./seed
+  list:
+  - seed_0
+  - seed_1
+  - seed_10
+  - seed_11
+  - seed_12
+  - seed_13
+  - seed_14
+  - seed_15
+  - seed_16
+  - seed_17
+  - seed_18
+  - seed_19
+  - seed_2
+  - seed_20
+  - seed_21
+  - seed_22
+  - seed_23
+  - seed_24
+  - seed_25
+  - seed_3
+  - seed_4
+  - seed_5
+  - seed_6
+  - seed_7
+  - seed_8
+  - seed_9
+authkeeper:
+  method: none
+  script_path: none
+  test_seed: none

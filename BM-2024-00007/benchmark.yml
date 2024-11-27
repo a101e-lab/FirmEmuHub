@@ -1,0 +1,58 @@
+version: '1'
+info:
+  serial: BM-2024-00007
+  build_date: 2024-07-11
+  firmware:
+    architecture: MIPSEB
+    sha256: 6f83f1dac5de040233132fa0eaf9099895aa639570c238813364d5dd5fd83811
+    vendor: TP-Link
+    name: TL-WR841N
+    file_name: wr841nv10_wr841ndv10_en_3_16_9_up_boot(150310).bin
+    version: V10
+    release_date: 2015-03-10
+    description: TP-LINK TL-WR841N V10.0 - N300 Wireless Extender Wi-Fi Router 300Mbps
+      INCL PSU
+emulation:
+  context: ./emulation
+  ip: 192.168.0.1
+  port: 80
+  interface: tap
+seed:
+  directory: ./seed
+  list:
+  - seed_0
+  - seed_1
+  - seed_10
+  - seed_11
+  - seed_12
+  - seed_13
+  - seed_14
+  - seed_15
+  - seed_16
+  - seed_17
+  - seed_18
+  - seed_19
+  - seed_2
+  - seed_20
+  - seed_21
+  - seed_22
+  - seed_23
+  - seed_24
+  - seed_25
+  - seed_26
+  - seed_27
+  - seed_28
+  - seed_29
+  - seed_3
+  - seed_30
+  - seed_31
+  - seed_4
+  - seed_5
+  - seed_6
+  - seed_7
+  - seed_8
+  - seed_9
+authkeeper:
+  method: update
+  script_path: ./auth/update.py
+  test_seed: seed_0

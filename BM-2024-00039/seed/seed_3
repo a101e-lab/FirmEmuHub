@@ -1,0 +1,11 @@
+GET /userRpm/WlanNetworkRpm.htm?ssid1=TP-LINK_000000&ssid2=TP-LINK_000000_2&ssid3=TP-LINK_000000_3&ssid4=TP-LINK_000000_4&region=101&band=0&mode=5&chanWidth=2&channel=15&rate=71&ap=1&broadcast=2&brlssid=&brlbssid=&addrType=1&keytype=1&wepindex=1&authtype=1&keytext=&Save=Save HTTP/1.1
+Host: 192.168.33.139:32781
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15
+Referer: http://192.168.33.139:32781/userRpm/WlanNetworkRpm.htm
+Authorization: Basic YWRtaW46YWRtaW4=
+Accept-Language: zh-CN,zh-Hans;q=0.9
+

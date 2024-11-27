@@ -1,0 +1,24 @@
+anum>
+		</media>
+		<macclone>        
+			<type>DISABLED</type>
+			<macaddr/>
+		</macclone>
+	</phyinf>
+</module>
+<module>
+	<service>PHYINF.WIFI</service>
+	<FATLADY>ignore</FATLADY>
+	<SETCFG>ignore</SETCFG>
+</module>
+<module>
+	<service>RUNTIME.SWITCHMODE</service>
+	<runtime>
+		<device>
+			<switchmode>AP</switchmode>
+		</device>
+	</runtime>
+	<SETCFG>ignore</SETCFG>
+	<ACTIVATE>ignore</ACTIVATE>
+</module>
+</postxml>

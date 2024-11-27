@@ -1,0 +1,16 @@
+POST /adv_captivals_v2.php HTTP/1.1
+Host: 192.168.33.132:33161
+Content-Length: 1902
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+Origin: http://192.168.33.132:33161
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.5735.110 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://192.168.33.132:33161/adv_captivals_v2.php
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: dlink_uid=tourhzzuvv; session_uid=tmddbujzhg
+Connection: close
+
+ACTION_POST=adv_captivals_v2&which_delete=&which_edit=&con_changessid=&f_action=&random_s1=&random_s2=&random_s3=&random_s4=&random_s5=&random_s6=&random_s7=&random_s8=&random_s9=&random_s10=&random_s11=&random_s12=&random_s13=&random_s14=&random_s15=&random_s16=&random_s17=&random_s18=&random_s19=&random_s20=&random_s21=&random_s22=&random_s23=&random_s24=&random_s25=&random_s26=&random_s27=&random_s28=&random_s29=&random_s30=&random_s31=&random_s32=&random_s33=&random_s34=&random_s35=&random_s36=&random_s37=&random_s38=&random_s39=&random_s40=&random_s41=&random_s42=&random_s43=&random_s44=&random_s45=&random_s46=&random_s47=&random_s48=&random_s49=&random_s50=&random_s51=&random_s52=&random_s53=&random_s54=&random_s55=&random_s56=&random_s57=&random_s58=&random_s59=&random_s60=&random_s61=&random_s62=&random_s63=&random_s64=&random_s65=&random_s66=&random_s67=&random_s68=&random_s69=&random_s70=&random_s71=&random_s72=&random_s73=&random_s74=&random_s75=&random_s76=&random_s77=&random_s78=&random_s79=&random_s80=&random_s81=&random_s82=&random_s83=&random_s84=&random_s85=&random_s86=&random_s87=&random_s88=&random_s89=&random_s90=&random_s91=&random_s92=&random_s93=&random_s94=&random_s95=&random_s96=&random_s97=&random_s98=&random_s99=&random_s100=&end_date=&timeout=60&band=0&ssid_index=0&encry_type=4&url_state=1&site_begin=1&url_path=1.1.1.11&vlanif_status=0&vlanif_group=&lantype=1&ipaddr=&ipmask=&gateway=&dns=&r_name=&r_password=&serial_cnt=&duration=&end_year=2015&end_month=1&end_day=1&end_hour=1&device=&radius_ip1=1.1.1.1&radius_port1=1812&radius_sec1=1A2B3C4D5E6F7890&remote_type1=0&radius_ip2=1.1.1.1&radius_port2=1812&radius_sec2=1A2B3C4D5E6F7890&remote_type2=0&radius_ip3=1.1.1.1&radius_port3=1812&radius_sec3=1A2B3C4D5E6F7890&remote_type3=1&ldap_ip=&ldap_port=389&ldap_auth=0&ldap_name=&ldap_password=&base_dn=&attribute=&identity=&pop3_ip=&pop3_port=&ssl_state=0

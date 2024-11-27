@@ -1,0 +1,15 @@
+POST /adv_schedule.php HTTP/1.1
+Host: 192.168.33.166:33549
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 160
+Origin: http://192.168.33.166:33549
+Connection: keep-alive
+Referer: http://192.168.33.166:33549/adv_schedule.php
+Cookie: dlink_uid=gjbnzegntv
+Upgrade-Insecure-Requests: 1
+
+ACTION_POST=adv_schedule&f_entry_del=0&entry_edit=1&f_add_value=2&f_day=Monday&f_start_time=08:00&f_end_time=18:00&f_sce_idx=1&f_ssid_select=SSID1&f_overnight=0

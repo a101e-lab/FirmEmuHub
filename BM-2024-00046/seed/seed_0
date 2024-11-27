@@ -1,0 +1,16 @@
+POST /HNAP1/ HTTP/1.1
+Host: 0.0.0.0:49160
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
+Accept: application/json
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/json
+SOAPACTION: "http://purenetworks.com/HNAP1/SetWanSettings"
+HNAP_AUTH: E5C14446F7156A0DE9E56D8ED83DAA45 1679312246111
+Content-Length: 272
+Origin: http://0.0.0.0:49160
+Connection: keep-alive
+Referer: http://0.0.0.0:49160/Network.html?t=1679312181178
+Cookie: PHPSESSID=bd88ccb12e9dd8a27f7fc9ba4cb92a03; uid=XnKHbsQN; PrivateKey=82C2649DF690F06B9A70BD510D6CA609
+
+{"SetWanSettings":{"wan_wan(0)_enable":"1","wan_wan(0)_proto":"dhcp","wan_wan(0)_mtu":"1500","wan_wan_speed":"1000","wan_wan_duplex":"Full","wan_wan(0)_mac_clone_enable":"1","wan_wan(0)_clone_mac":"","wan_wan(0)_dns_manual":"1","wan_wan(0)_dns":"192.168.0.1;192.168.0.2"}}

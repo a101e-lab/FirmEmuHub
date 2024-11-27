@@ -1,0 +1,15 @@
+POST /adv_dhcps.php HTTP/1.1
+Host: 192.168.33.132:33137
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/png,image/svg+xml,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 236
+Origin: http://192.168.33.132:33137
+Connection: close
+Referer: http://192.168.33.132:33137/adv_dhcps.php
+Upgrade-Insecure-Requests: 1
+Priority: u=4
+
+ACTION_POST=adv_dhcps&f_mac=a1%3Ab2%3Ac3%3Aa3%3Ad2%3Ab1&f_entry_del=&entry_edit=&srv_enable=1&host=aaa&ipaddr=1.1.1.1&mac1=a1&mac2=b2&mac3=c3&mac4=a3&mac5=d2&mac6=b1&ipmask=255.255.255.0&gateway=1.1.1.1&wins=&dns=1.1.1.1&domain=dlink-ap

@@ -1,0 +1,15 @@
+POST /adv_8021q.php HTTP/1.1
+Host: 0.0.0.0:49162
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 1187
+Origin: http://0.0.0.0:49162
+Connection: keep-alive
+Referer: http://0.0.0.0:49162/adv_8021q.php
+Cookie: dlink_uid=jfdongizpf; session_uid=hlkpqjmh
+Upgrade-Insecure-Requests: 1
+
+ACTION_POST=adv_8021q&f_ath1_egress=2&f_ath2_egress=0&f_ath3_egress=2&f_ath4_egress=2&f_ath5_egress=2&f_ath6_egress=2&f_ath7_egress=2&f_ath8_egress=2&f_ath9_egress=2&f_ath10_egress=2&f_ath11_egress=2&f_ath12_egress=2&f_ath13_egress=2&f_ath14_egress=2&f_ath15_egress=2&f_ath16_egress=2&f_ath17_egress=2&f_ath18_egress=2&f_ath19_egress=2&f_ath20_egress=2&f_ath21_egress=2&f_ath22_egress=2&f_ath23_egress=2&f_ath24_egress=2&f_ath25_egress=2&f_ath26_egress=2&f_ath27_egress=2&f_ath28_egress=2&f_ath29_egress=2&f_ath30_egress=2&f_ath31_egress=2&f_ath32_egress=2&f_eth_egress=2&f_eth_egress2=&f_sys_egress=1&f_apply=rule_add&f_rule_edit=&f_rule_del=&f_vlan=1&f_vid=55&f_ssid=555&f_pvid_auto=0&f_admin_pvid=&f_eth_pvid=&f_eth_pvid2=&f_pri_pvid=&f_pri_pvid_a=&f_ms_1_pvid=&f_ms_1_pvid_a=&f_wds_1_pvid=&f_wds_1_pvid_a=&f_ms_2_pvid=&f_ms_2_pvid_a=&f_wds_2_pvid=&f_wds_2_pvid_a=&f_ms_3_pvid=&f_ms_3_pvid_a=&f_wds_3_pvid=&f_wds_3_pvid_a=&f_ms_4_pvid=&f_ms_4_pvid_a=&f_wds_4_pvid=&f_wds_4_pvid_a=&f_ms_5_pvid=&f_ms_5_pvid_a=&f_wds_5_pvid=&f_wds_5_pvid_a=&f_ms_6_pvid=&f_ms_6_pvid_a=&f_wds_6_pvid=&f_wds_6_pvid_a=&f_ms_7_pvid=&f_ms_7_pvid_a=&f_wds_7_pvid=&f_wds_7_pvid_a=&f_wds_8_pvid=&f_wds_8_pvid_a=

@@ -1,0 +1,84 @@
+version: '1'
+info:
+  serial: BM-2024-00050
+  build_date: 2024-07-22
+  firmware:
+    architecture: MIPSEB
+    sha256: 864241498882d590bef3bdbe350b2d21564bdfb3e4ddd470e4f54b9085dc3019
+    vendor: TP-Link
+    name: TL-WR1043
+    file_name: wr1043v2_en_3_19_32_up_boot(150910).bin
+    version: V2
+    release_date: 2015-09-10
+    description: 450Mbps Wireless N Gigabit Router
+emulation:
+  context: ./emulation
+  ip: 192.168.0.1
+  port: 80
+  interface: tap
+seed:
+  directory: ./seed
+  list:
+  - seed_0
+  - seed_1
+  - seed_10
+  - seed_11
+  - seed_12
+  - seed_13
+  - seed_14
+  - seed_15
+  - seed_16
+  - seed_17
+  - seed_18
+  - seed_19
+  - seed_2
+  - seed_20
+  - seed_21
+  - seed_22
+  - seed_23
+  - seed_24
+  - seed_25
+  - seed_26
+  - seed_27
+  - seed_28
+  - seed_29
+  - seed_3
+  - seed_30
+  - seed_31
+  - seed_32
+  - seed_33
+  - seed_34
+  - seed_35
+  - seed_36
+  - seed_37
+  - seed_38
+  - seed_39
+  - seed_4
+  - seed_40
+  - seed_41
+  - seed_42
+  - seed_43
+  - seed_44
+  - seed_45
+  - seed_46
+  - seed_47
+  - seed_48
+  - seed_49
+  - seed_5
+  - seed_50
+  - seed_51
+  - seed_52
+  - seed_53
+  - seed_54
+  - seed_55
+  - seed_56
+  - seed_57
+  - seed_58
+  - seed_6
+  - seed_7
+  - seed_8
+  - seed_9
+authkeeper:
+  method: update
+  script_path: ./auth/update.py
+  test_seed: seed_0

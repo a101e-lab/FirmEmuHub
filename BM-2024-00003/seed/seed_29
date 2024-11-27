@@ -1,0 +1,14 @@
+POST /apply.cgi HTTP/1.1
+Host: 172.17.0.2
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:107.0) Gecko/20100101 Firefox/107.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 1319
+Origin: http://172.17.0.2
+Connection: close
+Referer: http://172.17.0.2/lan.asp
+Upgrade-Insecure-Requests: 1
+
+html_response_page=back_network.asp&html_response_message=The+new+settings+have+been+saved.&html_response_return_page=lan.asp&reboot_type=lan&del=-1&edit=-1&max_row=0&opendns_enable=0&mac_clone_addr=a2%3Aff%3Aad%3A13%3A5e%3Ab6&dhcpd_reserve_00=&dhcpd_reserve_01=&dhcpd_reserve_02=&dhcpd_reserve_03=&dhcpd_reserve_04=&dhcpd_reserve_05=&dhcpd_reserve_06=&dhcpd_reserve_07=&dhcpd_reserve_08=&dhcpd_reserve_09=&dhcpd_reserve_10=&dhcpd_reserve_11=&dhcpd_reserve_12=&dhcpd_reserve_13=&dhcpd_reserve_14=&dhcpd_reserve_15=&dhcpd_reserve_16=&dhcpd_reserve_17=&dhcpd_reserve_18=&dhcpd_reserve_19=&dhcpd_reserve_20=&dhcpd_reserve_21=&dhcpd_reserve_22=&dhcpd_reserve_23=&dhcpd_reserve_24=&wan_current_ipaddr=0.0.0.0%2F0.0.0.0%2F0.0.0.0%2F0.0.0.0%2F0.0.0.0&dhcp_list=&button=Save+Settings&lan_ipaddr=192.168.0.1&lan_netmask=255.255.255.0&lan_device_name=dlinkrouter&dhcpd_domain_name=&DNSrelay=1&dns_relay=1&dhcpd_enable=1&dhcpsvr=1&dhcpd_start=192.168.0.100&dhcpd_end=192.168.0.199&dhcpd_lease_time=1440&dhcpd_always_bcast=1&always_broadcast=1&dhcpd_netbios_enable=1&netbios_announcement=1&dhcpd_netbios_learn=0&dhcpd_static_scope=&dhcpd_static_node_type=2&netbios_node=2&wins_ip1=192.168.0.105&wins_ip2=192.168.0.105&dhcpd_static_wins_server=192.168.0.105%2F192.168.0.105&reserved_name=&reserved_list=-1&reserved_ip=&reserved_mac=

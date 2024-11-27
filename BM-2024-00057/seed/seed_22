@@ -1,0 +1,11 @@
+GET /RRDJFMGAJEWFYRSC/userRpm/WlanSecurityRpm.htm?pskSecOpt=1&pskCipher=3&pskSecret=12345670&interval=0&secType=2&wpaSecOpt=1&wpaCipher=3&radiusIp=192.168.1.2&radiusPort=1812&radiusSecret=123&intervalWpa=0&wepSecOpt=3&keytype=1&keynum=1&key1=&length1=0&key2=&length2=0&key3=&length3=0&key4=&length4=0&Save=Save HTTP/1.1
+Host: 192.168.0.254
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:107.0) Gecko/20100101 Firefox/107.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Referer: http://192.168.0.254/RRDJFMGAJEWFYRSC/userRpm/WlanSecurityRpm.htm?secType=3&pskSecOpt=1&pskCipher=3&pskSecret=12345670&interval=0&wpaSecOpt=3&wpaCipher=1&radiusIp=&radiusPort=1812&radiusSecret=&intervalWpa=0&wepSecOpt=3&keytype=1&keynum=1&key1=&length1=0&key2=&length2=0&key3=&length3=0&key4=&length4=0&Save=Save
+Cookie: Authorization=Basic%20YWRtaW46YWRtaW4%3D
+Upgrade-Insecure-Requests: 1
+

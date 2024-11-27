@@ -1,0 +1,15 @@
+POST /apply.cgi HTTP/1.1
+Host: 0.0.0.0:49155
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 1338
+Origin: http://0.0.0.0:49155
+Connection: keep-alive
+Referer: http://0.0.0.0:49155/adv_ipv6_routing.asp
+Cookie: uid=xkbzmm1Deq; session_uid=vkcfwkbdyh; auth_key=OH+ABPVFwzO2x/tDln+qxwRjY2MYY2MEY2MEY2MHY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjYw==
+Upgrade-Insecure-Requests: 1
+
+html_response_page=back.asp&html_response_message=The+setting+is+saved.&html_response_return_page=adv_ipv6_routing.asp&static_routing_ipv6_00=1%2Fklilnln%2FFE80%3A%3A201%3A23FF%3AFE45%3A6789%2F64%2F%2FNULL%2F1&static_routing_ipv6_01=0%2F%2F%2F64%2F%2FNULL%2F&static_routing_ipv6_02=0%2F%2F%2F64%2F%2FNULL%2F&static_routing_ipv6_03=0%2F%2F%2F64%2F%2FNULL%2F&static_routing_ipv6_04=0%2F%2F%2F64%2F%2FNULL%2F&static_routing_ipv6_05=0%2F%2F%2F64%2F%2FNULL%2F&static_routing_ipv6_06=0%2F%2F%2F64%2F%2FNULL%2F&static_routing_ipv6_07=0%2F%2F%2F64%2F%2FNULL%2F&static_routing_ipv6_08=0%2F%2F%2F64%2F%2FNULL%2F&static_routing_ipv6_09=0%2F%2F%2F64%2F%2FNULL%2F&reboot_type=wan&button=Save+Settings&enable0=1&name0=klilnln&Destination0=FE80%3A%3A201%3A23FF%3AFE45%3A6789&Sub_Mask0=64&metric0=1&interface0=NULL&name1=&Destination1=&Sub_Mask1=64&metric1=1&interface1=NULL&name2=&Destination2=&Sub_Mask2=64&metric2=1&interface2=NULL&name3=&Destination3=&Sub_Mask3=64&metric3=1&interface3=NULL&name4=&Destination4=&Sub_Mask4=64&metric4=1&interface4=NULL&name5=&Destination5=&Sub_Mask5=64&metric5=1&interface5=NULL&name6=&Destination6=&Sub_Mask6=64&metric6=1&interface6=NULL&name7=&Destination7=&Sub_Mask7=64&metric7=1&interface7=NULL&name8=&Destination8=&Sub_Mask8=64&metric8=1&interface8=NULL&name9=&Destination9=&Sub_Mask9=64&metric9=1&interface9=NULL

@@ -1,0 +1,11 @@
+GET /QKZJKHHACJDBFFFA/userRpm/WzdWlanApRpm.htm?brlssid=&brlbssid=&wds_keytype=1&wds_authtype=1&wds_keyformat=2&wds_wepindex=1&wds_keytext=&ssid_ap=TP-LINK_0000&ssid_client=&mac_client=&uni_wds_r=0&rptSsid=&rptBssid=&ssid1=TP-LINK_0000&vlanId1=1&ssid2=TP-LINK_0000_2&vlanId2=1&ssid3=TP-LINK_0000_3&vlanId3=1&ssid4=TP-LINK_0000_4&vlanId4=1&region=101&channel=1&mptBssid1=&mptBssid2=&mptBssid3=&mptBssid4=&multi_sec=0&addrType=1&secType=1&wepSecret=&wepSecOpt=3&keytype=1&keynum=1&key1=1234567890&length1=5&key2=&length2=0&key3=&length3=0&key4=&length4=0&pskSecOpt=3&pskCipher=3&pskSecret=12345670&interval=0&copy_ssid=&custom_ssid=&Next=Next&operMode=&ssid_type1=3&ssid_type2=3&ssid_type3=3&ssid_type4=3&ssid_sec1=12345670&ssid_sec2=12345670&ssid_sec3=12345670&ssid_sec4=12345670 HTTP/1.1
+Host: 192.168.0.254
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:107.0) Gecko/20100101 Firefox/107.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Referer: http://192.168.0.254/QKZJKHHACJDBFFFA/userRpm/WzdWlanApRpm.htm
+Cookie: Authorization=Basic%20YWRtaW46YWRtaW4%3D
+Upgrade-Insecure-Requests: 1
+

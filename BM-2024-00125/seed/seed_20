@@ -1,0 +1,16 @@
+POST /bsc_ipv6.php HTTP/1.1
+Host: 192.168.33.132:33167
+Content-Length: 202
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+Origin: http://192.168.33.132:33167
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.5735.110 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://192.168.33.132:33167/bsc_ipv6.php
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: dlink_uid=uhdlubejhr
+Connection: close
+
+f_ipv6_enable=1&ACTION_POST=bsc_ipv6&ipv6_enable=1&ipv6_lantype=static&ipaddr6=2001%3A0db8%3A85a3%3A0000%3A0000%3A8a2e%3A0370%3A7334&prefix=64&gateway6=2001%3A0db8%3A85a3%3A0000%3A0000%3A8a2e%3A0370%3A1

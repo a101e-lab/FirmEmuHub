@@ -1,0 +1,57 @@
+version: '1'
+info:
+  serial: BM-2024-00117
+  build_date: 2024-10-28
+  firmware:
+    architecture: MIPSEB
+    sha256: 96b673f2496f391c863358334b2ce7445e3a322c3488c72a4f30278c0df9dc03
+    vendor: D-Link
+    name: DAP-2695
+    file_name: DAP-2695_FIRMWARE_1.00RC015.zip
+    version: v1.00RC015
+    release_date:
+    description: Wireless AC1750 Simultaneous Dual-Band PoE Access Point
+emulation:
+  context: ./emulation
+  ip: 192.168.0.50
+  port: 80
+  interface: tap
+seed:
+  directory: ./seed
+  list:
+  - seed_0
+  - seed_1
+  - seed_10
+  - seed_11
+  - seed_12
+  - seed_13
+  - seed_14
+  - seed_15
+  - seed_16
+  - seed_17
+  - seed_18
+  - seed_19
+  - seed_2
+  - seed_20
+  - seed_21
+  - seed_22
+  - seed_23
+  - seed_24
+  - seed_25
+  - seed_26
+  - seed_27
+  - seed_28
+  - seed_29
+  - seed_3
+  - seed_30
+  - seed_31
+  - seed_4
+  - seed_5
+  - seed_6
+  - seed_7
+  - seed_8
+  - seed_9
+authkeeper:
+  method: replay
+  script_path: ./auth/replay.py
+  test_seed: seed_1

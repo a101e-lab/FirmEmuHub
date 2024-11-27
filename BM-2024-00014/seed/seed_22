@@ -1,0 +1,47 @@
+POST /cgi?2&2&2 HTTP/1.1
+Host: 192.168.33.166:33235
+Content-Length: 819
+Accept-Language: en-US,en;q=0.9
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.6668.71 Safari/537.36
+Content-Type: text/plain
+Accept: */*
+Origin: http://192.168.33.166:33235
+Referer: http://192.168.33.166:33235/mainFrame.htm
+Accept-Encoding: gzip, deflate, br
+Cookie: Authorization=Basic YWRtaW46YWRtaW4=
+Connection: keep-alive
+
+[WAN_ETH_INTF#1,0,0,0,0,0#0,0,0,0,0,0]0,1
+X_TP_lastUsedIntf=pppoe_eth3_d
+[WAN_PPP_CONN#1,1,1,0,0,0#0,0,0,0,0,0]1,18
+username=admin
+password=11111
+connectionTrigger=AlwaysOn
+PPPAuthenticationProtocol=AUTO_AUTH
+PPPoEACName=
+PPPoEServiceName=
+maxMRUSize=1480
+NATEnabled=1
+X_TP_FullconeNATEnabled=0
+X_TP_FirewallEnabled=1
+X_TP_IGMPProxyEnabled=1
+X_TP_IGMPForceVersion=0
+X_TP_UseStaticIP=0
+PPPLCPEcho=30
+DNSOverrideAllowed=0
+X_TP_IPv4Enabled=1
+secondConnection=sec_conn_staip
+enable=1
+[WAN_IP_CONN#1,1,1,0,0,0#0,0,0,0,0,0]2,12
+externalIPAddress=169.254.1.1
+subnetMask=255.255.255.255
+defaultGateway=0.0.0.0
+DNSOverrideAllowed=0
+DNSServers=0.0.0.0,0.0.0.0
+NATEnabled=1
+X_TP_FullconeNATEnabled=0
+X_TP_FirewallEnabled=1
+X_TP_IGMPProxyEnabled=1
+X_TP_IGMPForceVersion=0
+maxMTUSize=1500
+enable=1

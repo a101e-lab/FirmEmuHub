@@ -1,0 +1,12 @@
+GET /userRpm/WlanSecurityRpm.htm?secType=0&pskSecOpt=2&pskCipher=3&pskSecret=12345670&interval=0&wpaSecOpt=3&wpaCipher=3&radiusIp=&radiusPort=1812&radiusSecret=&intervalWpa=0&wepSecOpt=3&keytype=1&keynum=1&key1=&length1=0&key2=&length2=0&key3=&length3=0&key4=&length4=0&Save=Save HTTP/1.1
+Host: 0.0.0.0:49168
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Authorization: Basic YWRtaW46YWRtaW4=
+Connection: close
+Referer: http://0.0.0.0:49168/userRpm/WlanSecurityRpm.htm
+Cookie: Authorization=
+Upgrade-Insecure-Requests: 1
+

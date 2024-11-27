@@ -1,0 +1,11 @@
+GET /LIDHEHEBGIPGFNRA/userRpm/WanDynamicIpV6CfgRpm.htm?ipv6Enable=on&wantype=2&ipType=2&mtu=1480&dnsType=0&ipAssignType=0&ipStart=1000&ipEnd=2000&time=86400&ipPrefixType=0&staticPrefix=&staticPrefixLength=64&Save=Save HTTP/1.1
+Host: 192.168.0.1
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:107.0) Gecko/20100101 Firefox/107.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Referer: http://192.168.0.1/WRKWVQRABLAJMDEB/userRpm/WanDynamicIpV6CfgRpm.htm
+Cookie: Authorization=Basic%20YWRtaW46MjEyMzJmMjk3YTU3YTVhNzQzODk0YTBlNGE4MDFmYzM%3D
+Upgrade-Insecure-Requests: 1
+

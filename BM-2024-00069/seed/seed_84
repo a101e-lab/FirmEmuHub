@@ -1,0 +1,37 @@
+POST /cgi?1&1&1&5&5&5 HTTP/1.1
+Host: 0.0.0.0:49161
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: text/plain
+Content-Length: 481
+Origin: http://0.0.0.0:49161
+Authorization: Basic YWRtaW46YWRtaW4=
+Connection: close
+Referer: http://0.0.0.0:49161/
+Cookie: session_uid=exsougk
+
+[IP6_TUNNEL#0,0,0,0,0,0#0,0,0,0,0,0]0,0
+[DSLITE#0,0,0,0,0,0#0,0,0,0,0,0]1,0
+[SIT_6RD#0,0,0,0,0,0#0,0,0,0,0,0]2,0
+[WAN_IP_CONN#0,0,0,0,0,0#0,0,0,0,0,0]3,7
+enable
+name
+connectionType
+connectionStatus
+X_TPLINK_IfName
+addressingType
+externalIPAddress
+[WAN_PPP_CONN#0,0,0,0,0,0#0,0,0,0,0,0]4,5
+X_TPLINK_NCPType
+name
+connectionStatus
+X_TPLINK_IfName
+externalIPAddress
+[WAN_IP6_CONN#0,0,0,0,0,0#0,0,0,0,0,0]5,5
+enable
+name
+connectionStatus
+ifName
+externalIPAddress

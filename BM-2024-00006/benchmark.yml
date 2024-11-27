@@ -1,0 +1,32 @@
+version: '1'
+info:
+  serial: BM-2024-00006
+  build_date: 2024-10-13
+  firmware:
+    architecture: MIPSEB
+    sha256: dedfb21e2c112cea6c3002b48abd3d4c87888b7519c99218bd192b668de04dbf
+    vendor: D-Link
+    name: DIR-850L A1
+    file_name: DIR850LA1_FW106KRb01.bin
+    version: v1.05
+    release_date: 2013
+    description: none
+emulation:
+  context: ./emulation
+  ip: 192.168.0.1
+  port: 80
+  interface: tap
+seed:
+  directory: ./seed
+  list:
+  - seed_0
+  - seed_1
+  - seed_2
+  - seed_3
+  - seed_4
+  - seed_5
+  - seed_6
+authkeeper:
+  method: update
+  script_path: ./auth/update.py
+  test_seed: seed_0

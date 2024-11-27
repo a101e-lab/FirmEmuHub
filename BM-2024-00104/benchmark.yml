@@ -1,0 +1,43 @@
+version: '1'
+info:
+  serial: BM-2024-00104
+  build_date: 2024-10-26
+  firmware:
+    architecture: MIPSEB
+    sha256: d9df1d9da3f6f1ab555f09dcca307507e39f3984bd7548364a3159f8b3020533
+    vendor: D-Link
+    name: DAP-2553
+    file_name: DAP-2553_FIRMWARE_1.12.zip
+    version: V1.12
+    release_date:
+    description: Wireless N300 Dual-Band PoE Access Point
+emulation:
+  context: ./emulation
+  ip: 192.168.0.50
+  port: 80
+  interface: tap
+seed:
+  directory: ./seed
+  list:
+  - seed_0
+  - seed_1
+  - seed_10
+  - seed_11
+  - seed_12
+  - seed_13
+  - seed_14
+  - seed_15
+  - seed_16
+  - seed_17
+  - seed_2
+  - seed_3
+  - seed_4
+  - seed_5
+  - seed_6
+  - seed_7
+  - seed_8
+  - seed_9
+authkeeper:
+  method: replay
+  script_path: ./auth/replay.py
+  test_seed: seed_1

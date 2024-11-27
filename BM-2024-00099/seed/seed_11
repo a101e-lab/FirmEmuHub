@@ -1,0 +1,16 @@
+POST /adv_auto_rf.php HTTP/1.1
+Host: 192.168.33.53:32768
+Content-Length: 76
+Cache-Control: max-age=0
+Accept-Language: zh-CN,zh;q=0.9
+Origin: http://192.168.33.53:32768
+Content-Type: application/x-www-form-urlencoded
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.6723.70 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://192.168.33.53:32768/adv_auto_rf.php
+Accept-Encoding: gzip, deflate, br
+Cookie: dlink_uid=wnmuscuyur
+Connection: keep-alive
+
+ACTION_POST=adv_auto_rf&auto_rf=0&init_auto=0&init_period=24&rssi=40&freq=10

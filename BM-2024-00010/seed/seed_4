@@ -1,0 +1,11 @@
+GET /userRpm/WzdWlanRpm.htm?ap=0&ssid=TP-LINK_000000&region=101&channel=1&mode=1&rate=3&broadcast=2&secType=0&pskSecret=&btnValue=1&ClientId=716473552&wlanpage=1 HTTP/1.1
+Host: 192.168.1.1
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:107.0) Gecko/20100101 Firefox/107.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Authorization: Basic YWRtaW46YWRtaW4=
+Connection: keep-alive
+Referer: http://192.168.1.1/userRpm/WzdWlanRpm.htm
+Upgrade-Insecure-Requests: 1
+

@@ -1,0 +1,16 @@
+POST /adv_qos.php HTTP/1.1
+Host: 192.168.33.132:33154
+Content-Length: 402
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+Origin: http://192.168.33.132:33154
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.5735.110 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://192.168.33.132:33154/adv_qos.php
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: dlink_uid=ekwgnyujz; session_uid=nsenggoxnt
+Connection: close
+
+ACTION_POST=adv_qos&f_rule_del=&rule_edit=2&f_host_1_ip_r=3&f_host_2_ip_r=3&f_host_1_port_r=2&f_host_2_port_r=112&f_add=1&f_qos_enable=1&http=1&auto=1&name=213124&priority=0&protocol_select=1&protocol=6&host_1_ip_s=192.168.0.20&host_1_ip_e=192.168.0.22&host_1_port_s=111&host_1_port_e=112&host_2_ip_s=192.168.0.30&host_2_ip_e=192.168.0.32&host_2_port_s=222&host_2_port_e=333&rule_state1=1&rule_state2=1

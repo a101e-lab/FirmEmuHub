@@ -1,0 +1,24 @@
+POST /cgi?2 HTTP/1.1
+Host: 0.0.0.0:49159
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: text/plain
+Content-Length: 246
+Origin: http://0.0.0.0:49159
+Authorization: Basic YWRtaW46YWRtaW4=
+Connection: close
+Referer: http://0.0.0.0:49159/
+Cookie: session_uid=exsougk
+
+[LAN_HOST_CFG#1,0,0,0,0,0#0,0,0,0,0,0]0,9
+DHCPServerEnable=1
+minAddress=192.168.1.10
+maxAddress=192.168.1.198
+IPRouters=192.168.1.1
+DHCPLeaseTime=85800
+domainName=
+DNSServers=0.0.0.0,0.0.0.0
+DHCPRelay=0
+X_TPLINK_DhcpRelayServer=0.0.0.0

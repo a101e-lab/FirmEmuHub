@@ -1,0 +1,58 @@
+version: '1'
+info:
+  serial: BM-2024-00018
+  build_date: 2024-07-15
+  firmware:
+    architecture: MIPSEL
+    sha256: ea53ff01b2942fac88843f0ed6bc87de5ad9b41d57d3c1030148dc8f04f1a2a4
+    vendor: TP-Link
+    name: TL-WR840N
+    file_name: TL-wr840nv4_0.9.1_3.16_up_boot.bin
+    version: V4
+    release_date: 2016-12-01
+    description: TP-Link’s TL-WR840N is a high speed solution that is compatible with
+      IEEE 802.11b/g/n. Based on 802.11n technology, TL-WR840N gives users wireless
+      performance at up to 300Mbps, which can meet your most demanding home networking
+      needs, such as HD streaming, online gaming and large files downloading.
+emulation:
+  context: ./emulation
+  ip: 192.168.0.1
+  port: 80
+  interface: tap
+seed:
+  directory: ./seed
+  list:
+  - seed_0
+  - seed_1
+  - seed_10
+  - seed_11
+  - seed_12
+  - seed_13
+  - seed_14
+  - seed_15
+  - seed_16
+  - seed_17
+  - seed_18
+  - seed_19
+  - seed_2
+  - seed_20
+  - seed_21
+  - seed_22
+  - seed_23
+  - seed_24
+  - seed_25
+  - seed_26
+  - seed_27
+  - seed_28
+  - seed_29
+  - seed_3
+  - seed_4
+  - seed_5
+  - seed_6
+  - seed_7
+  - seed_8
+  - seed_9
+authkeeper:
+  method: none
+  script_path: none
+  test_seed: none

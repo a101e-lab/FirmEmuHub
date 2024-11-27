@@ -1,0 +1,30 @@
+POST /cgi?3 HTTP/1.1
+Host: 0.0.0.0:49159
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: text/plain
+Content-Length: 189
+Origin: http://0.0.0.0:49159
+Authorization: Basic YWRtaW46YWRtaW4=
+Connection: close
+Referer: http://0.0.0.0:49159/
+Cookie: session_uid=exsougk
+
+[TASK_SCHEDULE#0,0,0,0,0,0#0,0,0,0,0,0]0,15
+entryName=32
+sunAm=0
+sunPm=0
+monAm=0
+monPm=0
+tueAm=66560
+tuePm=0
+wedAm=0
+wedPm=0
+thuAm=0
+thuPm=0
+friAm=0
+friPm=0
+satAm=0
+satPm=0

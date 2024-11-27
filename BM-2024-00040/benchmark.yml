@@ -1,0 +1,56 @@
+version: '1'
+info:
+  serial: BM-2024-00040
+  build_date: 2024-07-18
+  firmware:
+    architecture: MIPSEB
+    sha256: edb07a67305555f8f6a0409dcc10080fce717999303ac75d3420005b561353e5
+    vendor: D-Link
+    name: DIR-615 C1
+    file_name: DIR-615_REVC_FIRMWARE_3.14NA.B01_.ZIP
+    version: v3.14NA
+    release_date: 2004
+    description: Wireless N 300 Router
+emulation:
+  context: ./emulation
+  ip: 192.168.0.1
+  port: 80
+  interface: tap
+seed:
+  directory: ./seed
+  list:
+  - seed_0
+  - seed_1
+  - seed_10
+  - seed_11
+  - seed_12
+  - seed_13
+  - seed_14
+  - seed_15
+  - seed_16
+  - seed_17
+  - seed_18
+  - seed_19
+  - seed_2
+  - seed_20
+  - seed_21
+  - seed_22
+  - seed_23
+  - seed_24
+  - seed_25
+  - seed_26
+  - seed_27
+  - seed_28
+  - seed_29
+  - seed_3
+  - seed_30
+  - seed_4
+  - seed_5
+  - seed_6
+  - seed_7
+  - seed_8
+  - seed_9
+authkeeper:
+  method: replay
+  script_path: ./auth/replay.py
+  test_seed: seed_0

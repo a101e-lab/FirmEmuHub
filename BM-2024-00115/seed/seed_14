@@ -1,0 +1,16 @@
+POST /adv_ap_array.php HTTP/1.1
+Host: 192.168.33.132:33158
+Content-Length: 720
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+Origin: http://192.168.33.132:33158
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.5735.110 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://192.168.33.132:33158/adv_ap_array.php
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: dlink_uid=tourhzzuvv
+Connection: close
+
+ACTION_POST=adv_ap_array&f_ap_array_enable=1&f_role=2&f_scan_value=&f_wlmode=&ap_array_enable=1&role=2&ap_array_name=d-link&ap_array_pwd=8E701FCF8FD231F2B90B81AC76831AF9&basic_setting=1&bsc_network_name=1&bsc_ssid_visibility=1&bsc_auto_chann=1&bsc_channel_width=1&bsc_security=1&bsc_band=1&adv_setting=1&adv_data_rate=1&adv_beacon_interval=1&adv_dtim=1&adv_transmit_power=1&adv_wmm_wifi=1&adv_ack_timeout=1&adv_acl=1&adv_short_gi=1&adv_link_integrity=1&adv_conn_limit=1&adv_igmp=1&mssid_vlan=1&mssid=1&mssid_visibility=1&msecurity=1&mwmm=1&vlan=1&adv_func=1&schedule_settings=1&qos_setting=1&log_setting=1&time_date=1&dhcp_svr_setting=1&admin_setting=1&sys_name_setting=1&snmp_setting=1&login_setting=1&console_setting=1

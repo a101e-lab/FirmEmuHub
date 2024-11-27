@@ -1,0 +1,31 @@
+POST /HNAP1/ HTTP/1.1
+Host: 192.168.69.4:49156
+Content-Length: 521
+Accept: text/xml
+HNAP_AUTH: 1A852B29F1308AE160D064097852F2AE 1678688765
+SOAPACTION: "http://purenetworks.com/HNAP1/SetMACFilters2"
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.5563.65 Safari/537.36
+Content-Type: text/xml
+Origin: http://192.168.69.4:49156
+Referer: http://192.168.69.4:49156/Device.html
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: uid=5xBXaz45q
+Connection: close
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+<soap:Body>
+<SetMACFilters2>
+	<Enabled>true</Enabled>
+	<IsAllowList>false</IsAllowList>
+	<MACList>
+		<MACInfo>
+			<MacAddress>00:0C:29:CA:E4:66</MacAddress>
+			<DeviceName>rule2</DeviceName>
+			<ScheduleName/>
+			<Status/>
+		<Enable>1</Enable></MACInfo>
+	</MACList>
+</SetMACFilters2>
+</soap:Body>
+</soap:Envelope>

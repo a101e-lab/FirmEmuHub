@@ -1,0 +1,11 @@
+GET /DIKHXMDAIAAMCXNC/userRpm/SystemStatisticRpm.htm?ResetAll=All&interval=25&autoRefresh=0&sortType=5&Num_per_page=5&Goto_page=1 HTTP/1.1
+Host: 0.0.0.0:49160
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Referer: http://0.0.0.0:49160/DIKHXMDAIAAMCXNC/userRpm/SystemStatisticRpm.htm?interval=25&sortType=5&Num_per_page=5&Goto_page=1
+Cookie: Authorization=Basic%20YWRtaW46MjEyMzJmMjk3YTU3YTVhNzQzODk0YTBlNGE4MDFmYzM%3D
+Upgrade-Insecure-Requests: 1
+

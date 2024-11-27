@@ -1,0 +1,28 @@
+POST /cgi?2&2&2 HTTP/1.1
+Host: 0.0.0.0:49164
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: text/plain
+Content-Length: 359
+Origin: http://0.0.0.0:49164
+Connection: keep-alive
+Referer: http://0.0.0.0:49164/mainFrame.htm
+Cookie: uid=iKJTbSxJ; PrivateKey=5230A5DAE98EF5E6BD6C87E67BB565AB; PHPSESSID=85ec2df3527e637073acc8de0f600edc; Authorization=Basic YWRtaW46YWRtaW4=
+
+[LAN_WLAN#1,1,0,0,0,0#0,0,0,0,0,0]0,10
+SSID=TP-LINK_0969
+Standard=n
+AutoChannelEnable=1
+Channel=6
+X_TP_Bandwidth=Auto
+Enable=1
+SSIDAdvertisementEnabled=1
+WMMEnable=1
+X_TP_FragmentThreshold=2346
+RegulatoryDomain=DE 
+[LAN_WLAN_MULTISSID#1,1,0,0,0,0#0,0,0,0,0,0]1,1
+multiSSIDEnable=1
+[LAN_WLAN_WDSBRIDGE#1,1,0,0,0,0#0,0,0,0,0,0]2,1
+BridgeEnable=0

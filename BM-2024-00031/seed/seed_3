@@ -1,0 +1,15 @@
+POST /cgi-bin/wan.asp HTTP/1.1
+Host: 192.168.1.1
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:107.0) Gecko/20100101 Firefox/107.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 963
+Origin: http://192.168.1.1
+Connection: keep-alive
+Referer: http://192.168.1.1/cgi-bin/wan.asp
+Cookie: SESSIONID=04d4df32; UID=admin; PSW=admin
+Upgrade-Insecure-Requests: 1
+
+wanType=No&wanTypeFlag=0&ManualSetup=on&Wan_Configured=YES&Wan_PvcSelect=0&Wan_PvcSelectFlag=&Wan_ConnType=3&Wan_Ppp_Username=admin&Wan_Ppp_Pwd=admin&Wan_PPP_FLAG=Dynamic&Wan_Ppp_SerName=1&Wan_Ppp_Encap=PPPoE+LLC&Wan_Ppp_Mtu=0&Wan_Ppp_Timeout=1&Wan_Dyn_Encap=1483+Bridged+IP+VC-Mux&Wan_Dyn_Route=Yes&Wan_Static_Ip=192.168.1.3&Wan_Static_Mask=255.255.255.0&Wan_Static_Gateway=192.168.1.1&Wan_Static_Encap=1483+Bridged+IP+VC-Mux&Wan_Static_Route=Yes&Wan_Qos=cbr&Wan_Bridge_Encap=1483+Bridged+Only+VC-Mux&Enable_DNS=0&Wan_Interface=CurrentIface&Gateway_Interface=CurrentIface&Wan_Vpi=0&Wan_Vci=38&Wan_Pvc_Nat=on&firewallcheckbox=on&Wan_Pvc_Igmp=on&wan_RIP=RIP1&wan_RIP_Dir=Both&Wan_Ppp_AuthType=AUTO&Wan_Ppp_Route=Yes&Wan_VirCircuit=Yes&Wan_Pcr=0&Wan_BtnClickFlag=1&Wan_ConnectType=&Wan_ConnTypeFlag=1&Wan_PvcSelect_H=0&Wan_Qos_H=1&SubmitFlag=1&CommitFlag=1&ConnectionType=Connect_on_Demand&firewallcheckbox_H=1&Wan_Pvc_Nat_H=Enable&Wan_Pvc_Igmp_H=Yes&Enable_DNS_H=0

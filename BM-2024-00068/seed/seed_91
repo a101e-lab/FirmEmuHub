@@ -1,0 +1,21 @@
+POST /cgi?3 HTTP/1.1
+Host: 0.0.0.0:49159
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: text/plain
+Content-Length: 135
+Origin: http://0.0.0.0:49159
+Authorization: Basic YWRtaW46YWRtaW4=
+Connection: close
+Referer: http://0.0.0.0:49159/
+Cookie: session_uid=exsougk
+
+[INTERNAL_HOST#0,0,0,0,0,0#0,0,0,0,0,0]0,6
+type=0
+entryName=asfs
+IPStart=-1062731517
+IPEnd=-1062731515
+portStart=12
+portEnd=123

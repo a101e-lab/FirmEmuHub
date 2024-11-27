@@ -1,0 +1,14 @@
+POST /routing_stat.php HTTP/1.1
+Host: 192.168.33.61:32822
+Content-Length: 10
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.5993.90 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Origin: http://192.168.33.61:32822
+Referer: http://192.168.33.61:32822/st_routing.php
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: PrivateKey=C8B843B87E7C03EF5F224D6D4949A7F1; timeout=201; uid=tEE6u2CYfU
+Connection: close
+
+version=v4

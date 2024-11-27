@@ -1,0 +1,14 @@
+POST /apply.cgi HTTP/1.1
+Host: 172.17.0.2
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:107.0) Gecko/20100101 Firefox/107.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 231
+Origin: http://172.17.0.2
+Connection: close
+Referer: http://172.17.0.2/wizard_wan4a.asp
+Upgrade-Insecure-Requests: 1
+
+html_response_page=wizard_wan5.asp&html_response_return_page=wizard_wan4a.asp&reboot_type=none&mac_clone_addr=12%3A84%3A2c%3A87%3A9a%3Ab4&asp_temp_04=admin&asp_temp_43=&asp_temp_03=12%3A84%3A2c%3A87%3A9a%3Ab4&host=admin&next_b=Next

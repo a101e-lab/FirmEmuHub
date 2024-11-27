@@ -1,0 +1,46 @@
+version: '1'
+info:
+  serial: BM-2024-00002
+  build_date: 2024-07-10
+  firmware:
+    architecture: MIPSEL
+    sha256: ed2e85ccba514ba5c4e07c2ffece04e4b856dfeead3e7e8256c1b852324ee805
+    vendor: D-Link
+    name: DIR-823G A1
+    file_name: DIR823GA1_FW102B03.bin
+    version: v1.0.2B03
+    release_date: 2018-08-02
+    description: null
+emulation:
+  context: ./emulation
+  ip: 192.168.0.1
+  port: 80
+  interface: tap
+seed:
+  directory: ./seed
+  list:
+  - seed_0
+  - seed_1
+  - seed_10
+  - seed_11
+  - seed_12
+  - seed_13
+  - seed_14
+  - seed_15
+  - seed_16
+  - seed_17
+  - seed_18
+  - seed_19
+  - seed_2
+  - seed_20
+  - seed_3
+  - seed_4
+  - seed_5
+  - seed_6
+  - seed_7
+  - seed_8
+  - seed_9
+authkeeper:
+  method: none
+  script_path: none
+  test_seed: CVE-2020-25366

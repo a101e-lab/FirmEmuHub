@@ -1,0 +1,15 @@
+POST /adv_perf.php HTTP/1.1
+Host: 0.0.0.0:49155
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 293
+Origin: http://0.0.0.0:49155
+Connection: keep-alive
+Referer: http://0.0.0.0:49155/adv_perf.php
+Cookie: dlink_uid=ztcexvffo
+Upgrade-Insecure-Requests: 1
+
+ACTION_POST=adv_perf&f_wlmode=2&f_rate=11&f_mrate_a=0&f_mrate_g=0&wl_enable=1&wlmode_g=2&wlmode_a=8&rate_g=11&rate_a=31&bi=100&dtim=1&power=1&wmm=1&ack_timeout=64&shortgi=0&igmp=0&limit_state=0&limit_num=20&mcast_a_n=0&mcast_a=0&mcast_n_fora=0&mcast_g_n=0&mcast_g=0&mcast_n_forg=0&m2u_status=0

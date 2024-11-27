@@ -1,0 +1,33 @@
+POST /hedwig.cgi HTTP/1.1
+Host: 192.168.0.1
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:107.0) Gecko/20100101 Firefox/107.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml
+Content-Length: 702
+Origin: http://192.168.0.1
+Connection: keep-alive
+Referer: http://192.168.0.1/adv_firewallv6.php
+Cookie: uid=RvRQQgL6lA
+
+<?xml version="1.0" encoding="UTF-8"?>
+<postxml>
+<module>
+	<service>FIREWALL6</service>
+	<acl6>
+		<firewall>
+			<seqno>1</seqno>
+			<max>20</max>
+			<count>1</count>
+			<policy>DROP</policy>
+		<entry><enable>1</enable><description>ee</description><src><inf>LAN-4</inf><host><start>192.168.0.8</start><end>192.168.0.11</end></host></src><protocol>TCP</protocol><policy>ACCEPT</policy><dst><inf>WAN-4</inf><host><start>192.168.0.10</start><end>192.168.0.22</end></host><port><start>12</start><end>17</end></port></dst><schedule></schedule></entry></firewall>
+	</acl6>
+</module>
+<module>
+	<service>IP6TSMPSECURITY</service>
+	<device>
+		<simple_security>1</simple_security>
+	</device>	
+</module>
+</postxml>

@@ -1,0 +1,29 @@
+POST /cgi?3 HTTP/1.1
+Host: 192.168.33.107:32898
+Content-Length: 185
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.5938.132 Safari/537.36
+Content-Type: text/plain
+Accept: */*
+Origin: http://192.168.33.107:32898
+Referer: http://192.168.33.107:32898/mainFrame.htm
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: Authorization=Basic YWRtaW46YWRtaW4=
+Connection: close
+
+[TASK_SCHEDULE#0,0,0,0,0,0#0,0,0,0,0,0]0,15
+entryName=No
+sunAm=0
+sunPm=0
+monAm=0
+monPm=0
+tueAm=0
+tuePm=0
+wedAm=0
+wedPm=0
+thuAm=0
+thuPm=0
+friAm=0
+friPm=0
+satAm=0
+satPm=0

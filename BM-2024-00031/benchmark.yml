@@ -1,0 +1,49 @@
+version: '1'
+info:
+  serial: BM-2024-00031
+  build_date: 2024-07-17
+  firmware:
+    architecture: MIPSEB
+    sha256: 7a3f8849e3be358dfa58064b5fb94d31c1b5e9b3fbf54142d98a0d8871ba61f8
+    vendor: D-Link
+    name: DSL-2740R B1
+    file_name: DSL-2740R_FIRMWARE_1.03_EU.bin
+    version: v1.03_EU
+    release_date:
+    description: Wireless N300 ADSL2+ Modem Router
+emulation:
+  context: ./emulation
+  ip: 192.168.1.1
+  port: 80
+  interface: tap
+seed:
+  directory: ./seed
+  list:
+  - seed_0
+  - seed_1
+  - seed_10
+  - seed_11
+  - seed_12
+  - seed_13
+  - seed_14
+  - seed_15
+  - seed_16
+  - seed_17
+  - seed_18
+  - seed_19
+  - seed_2
+  - seed_20
+  - seed_21
+  - seed_22
+  - seed_23
+  - seed_3
+  - seed_4
+  - seed_5
+  - seed_6
+  - seed_7
+  - seed_8
+  - seed_9
+authkeeper:
+  method: none
+  script_path: none
+  test_seed: none

@@ -1,0 +1,26 @@
+POST /hedwig.cgi HTTP/1.1
+Host: 192.168.0.1
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:107.0) Gecko/20100101 Firefox/107.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml
+Content-Length: 545
+Origin: http://192.168.0.1
+Connection: keep-alive
+Referer: http://192.168.0.1/adv_routingv6.php
+Cookie: uid=RvRQQgL6lA
+
+<?xml version="1.0" encoding="UTF-8"?>
+<postxml>
+<module>
+	<service>ROUTE6.STATIC</service>
+	<route6>
+		<static>
+			<seqno>1</seqno>
+			<max>10</max>
+			<count>2</count>
+		<entry><uid>SRT-1</uid><description>ee</description><enable>1</enable><inf>WAN-4</inf><network>32</network><prefix>64</prefix><via>192.168.0.1</via><metric></metric></entry><entry><uid>SRT-2</uid><description></description><enable>0</enable><inf>NULL</inf><network>24</network><prefix>64</prefix><via></via><metric></metric></entry></static>
+	</route6>
+</module>
+</postxml>

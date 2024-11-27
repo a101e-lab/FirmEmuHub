@@ -1,0 +1,13 @@
+POST /hedwig.cgi HTTP/1.1
+Host: 192.168.33.140:32771
+Content-Length: 15594
+Accept-Language: zh-CN,zh;q=0.9
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.6668.71 Safari/537.36
+Content-Type: text/xml
+Accept: */*
+Origin: http://192.168.33.140:32771
+Referer: http://192.168.33.140:32771/wiz_wan.php
+Accept-Encoding: gzip, deflate, br
+Cookie: uid=jJJdBPHHsI
+Connection: keep-alive
+

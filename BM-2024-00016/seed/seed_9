@@ -1,0 +1,59 @@
+POST /hedwig.cgi HTTP/1.1
+Host: 0.0.0.0:49156
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml
+Content-Length: 711
+Origin: http://0.0.0.0:49156
+Connection: keep-alive
+Referer: http://0.0.0.0:49156/bsc_media_server.php
+Cookie: uid=uNw52ETrdT
+
+<?xml version="1.0" encoding="UTF-8"?>
+<postxml>
+<module>
+	<service>UPNPAV</service>
+	<upnpav>		
+					<dms>
+				<name>DIR816L_DMS</name>
+				<active>1</active>
+				<rescan>0</rescan>
+				<sharepath>/</sharepath>
+			</dms>
+		
+	</upnpav>
+	<runtime>
+		<device>
+			<storage>
+				<count>1</count>
+			</storage>
+		</device>
+		<scan_media>
+			
+		</scan_media>
+	</runtime>		
+</module>
+<module>
+	<service>ITUNES</service>
+	<itunes>		
+					<server>
+				<active>1</active>
+				<rescan>0</rescan>
+				<sharepath>ATA_QEMU_HARDDISK_01</sharepath>
+			</server>
+		
+	</itunes>
+	<runtime>
+		<device>
+			<storage>
+				<count>1</count>
+			</storage>
+		</device>
+		<scan_media>
+			
+		</scan_media>
+	</runtime>		
+</module>
+</postxml>

@@ -1,0 +1,16 @@
+POST /adv_dhcps.php HTTP/1.1
+Host: 192.168.33.53:32768
+Content-Length: 237
+Cache-Control: max-age=0
+Accept-Language: zh-CN,zh;q=0.9
+Origin: http://192.168.33.53:32768
+Content-Type: application/x-www-form-urlencoded
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.6723.70 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://192.168.33.53:32768/adv_dhcps.php
+Accept-Encoding: gzip, deflate, br
+Cookie: dlink_uid=wnmuscuyur
+Connection: keep-alive
+
+ACTION_POST=adv_dhcps&f_mac=FC%3AFC%3AFC%3AFC%3AFC%3AFC&f_entry_del=&entry_edit=&srv_enable=1&host=123&ipaddr=192.168.123.123&mac1=FC&mac2=FC&mac3=FC&mac4=FC&mac5=FC&mac6=FC&ipmask=255.255.255.0&gateway=&wins=&dns=4.4.4.4&domain=dlink-ap

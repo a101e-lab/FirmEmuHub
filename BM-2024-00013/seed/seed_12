@@ -1,0 +1,32 @@
+POST /HNAP1/ HTTP/1.1
+Host: 192.168.0.1
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:107.0) Gecko/20100101 Firefox/107.0
+Accept: text/xml
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml
+SOAPACTION: "http://purenetworks.com/HNAP1/SetNetworkSettings"
+HNAP_AUTH: 70D459FC7B89BA000FFE14BE75569922 1676881356
+Content-Length: 655
+Origin: http://192.168.0.1
+Connection: keep-alive
+Referer: http://192.168.0.1/Network.html
+Cookie: uid=qm0dePo20p
+
+<?xml version="1.0" encoding="UTF-8"?>
+<soap:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+<soap:Body>
+<SetNetworkSettings xmlns="http://purenetworks.com/HNAP1/">
+	<IPAddress>192.168.0.1</IPAddress>
+	<SubnetMask>255.255.255.0</SubnetMask>
+	<PresentationURL/>
+	<DeviceName>dlinkrouter</DeviceName>
+	<LocalDomainName>ad</LocalDomainName>
+	<IPRangeStart>100</IPRangeStart>
+	<IPRangeEnd>199</IPRangeEnd>
+	<LeaseTime>10080</LeaseTime>
+	<Broadcast>true</Broadcast>
+	<DNSRelay>true</DNSRelay>
+</SetNetworkSettings>
+</soap:Body>
+</soap:Envelope>

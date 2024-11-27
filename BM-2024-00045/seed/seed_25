@@ -1,0 +1,134 @@
+POST /hedwig.cgi HTTP/1.1
+Host: 0.0.0.0:49157
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: text/xml
+Content-Length: 2417
+Origin: http://0.0.0.0:49157
+Connection: keep-alive
+Referer: http://0.0.0.0:49157/adv_qos.php
+Cookie: uid=idEA6LhCZm
+
+<?xml version="1.0" encoding="UTF-8"?>
+<postxml>
+<module>
+	<service>TRAFFICCTRL.BRIDGE-1</service>
+		<trafficctrl>
+					<seqno>1</seqno>
+	<max>1</max>
+	<count>1</count>
+	<entry>
+		<uid>TRAFFICCTRL-1</uid>
+		<updownlinkset>  
+			<bandwidth>
+				<downlink>150</downlink>
+				<uplink>150</uplink>
+			</bandwidth>
+		</updownlinkset>
+		<updownlinkinf>
+			<uplinkinf>
+				<max>1</max>
+				<count>1</count>
+				<entry>
+					<ifname>eth0</ifname>
+				</entry>
+			</uplinkinf>
+			<downlinkinf>
+				<max>4</max>
+				<count>4</count>
+				<entry>
+					<ifname>wlan0</ifname>
+				</entry>
+				<entry>
+					<ifname>wlan1</ifname>
+				</entry>
+				<entry>
+					<ifname>wlan0-va0</ifname>
+				</entry>
+				<entry>
+					<ifname>wlan1-va0</ifname>
+				</entry>
+			</downlinkinf>
+		</updownlinkinf>
+		<qos>  
+			<enable>1</enable>
+			<qostype>0</qostype>
+			<port>
+				<port1priority>1</port1priority>
+				<port2priority>5</port2priority>
+				<port3priority>5</port3priority>
+				<port4priority>7</port4priority>
+			</port>
+			<protocol>
+				<aui>  
+					<priority>0</priority>
+					<limit>100</limit>
+				</aui>
+				<web>  
+					<priority>2</priority>
+					<limit>100</limit>
+				</web>
+				<mail>  
+					<priority>1</priority>
+					<limit>100</limit>
+				</mail>
+				<ftp>  
+					<priority>3</priority>
+					<limit>100</limit>
+				</ftp>
+				<user1>  
+					<priority>0</priority>
+					<startport>0</startport>
+					<endport>0</endport>
+					<limit>100</limit>
+				</user1>
+				<user2>  
+					<priority>1</priority>
+					<startport>0</startport>
+					<endport>0</endport>
+					<limit>100</limit>
+				</user2>
+				<user3>  
+					<priority>2</priority>
+					<startport>0</startport>
+					<endport>0</endport>
+					<limit>100</limit>
+				</user3>
+				<user4>  
+					<priority>3</priority>
+					<startport>0</startport>
+					<endport>0</endport>
+					<limit>100</limit>
+				</user4>
+				<other>  
+					<priority>3</priority>
+					<limit>100</limit>
+				</other>
+			</protocol>
+		</qos>
+		<trafficmgr>  
+			<enable>0</enable>
+			<unlistclientstraffic>1</unlistclientstraffic>
+			<rule>
+				<seqno>1</seqno>
+				<max>64</max>
+				<count>0</count>
+			</rule>
+		<whichsubmit>qos</whichsubmit></trafficmgr>
+	</entry>
+
+		</trafficctrl>
+</module>
+<module>
+	<service>RUNTIME.SWITCHMODE</service>
+	<runtime>
+		<device>
+			<switchmode>AP</switchmode>
+		</device>
+	</runtime>
+	<SETCFG>ignore</SETCFG>
+	<ACTIVATE>ignore</ACTIVATE>
+</module>
+</postxml>

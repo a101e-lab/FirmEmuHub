@@ -1,0 +1,38 @@
+version: '1'
+info:
+  serial: BM-2024-00046
+  build_date: 2024-07-22
+  firmware:
+    architecture: MIPSEL
+    sha256: c7c91cbc70f00a07d58940fbd95f1c1c90fa4ee1de84fdcc3ee77dfe6a7b8be6
+    vendor: D-Link
+    name: DIR-846
+    file_name: DIR846enFW100A53DLA-Retail.bin
+    version: v1.0.0
+    release_date:
+    description: AC1200 MU-MIMO Wi-Fi Route
+emulation:
+  context: ./emulation
+  ip: 192.168.0.1
+  port: 80
+  interface: tap
+seed:
+  directory: ./seed
+  list:
+  - seed_0
+  - seed_1
+  - seed_10
+  - seed_11
+  - seed_12
+  - seed_2
+  - seed_3
+  - seed_4
+  - seed_5
+  - seed_6
+  - seed_7
+  - seed_8
+  - seed_9
+authkeeper:
+  method: update
+  script_path: ./auth/update.py
+  test_seed: seed_0

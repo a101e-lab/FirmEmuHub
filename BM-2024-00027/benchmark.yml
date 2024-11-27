@@ -1,0 +1,48 @@
+version: '1'
+info:
+  serial: BM-2024-00027
+  build_date: 2024-07-22
+  firmware:
+    architecture: MIPSEB
+    sha256: 4249ede44afc2cb5ed31b6515e287aeb09d3982a54f2fbf41f1ee7217f68944c
+    vendor: D-Link
+    name: DAP-3520
+    file_name: DAP-3520_REVA_FIRMWARE_PATCH_1.17.RC047.ZIP
+    version: v1.17
+    release_date: 2016-03-24
+    description: Wireless N Dual-Band PoE Outdoor Access Point
+emulation:
+  context: ./emulation
+  ip: 192.168.0.50
+  port: 80
+  interface: tap
+seed:
+  directory: ./seed
+  list:
+  - CVE-2022-35619
+  - CVE-2022-35620
+  - seed_0
+  - seed_1
+  - seed_10
+  - seed_11
+  - seed_12
+  - seed_13
+  - seed_14
+  - seed_15
+  - seed_16
+  - seed_17
+  - seed_18
+  - seed_19
+  - seed_2
+  - seed_20
+  - seed_3
+  - seed_4
+  - seed_5
+  - seed_6
+  - seed_7
+  - seed_8
+  - seed_9
+authkeeper:
+  method: replay
+  script_path: ./auth/replay.py
+  test_seed: seed_0

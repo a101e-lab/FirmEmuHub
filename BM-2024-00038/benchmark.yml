@@ -1,0 +1,71 @@
+version: '1'
+info:
+  serial: BM-2024-00038
+  build_date: 2024-07-17
+  firmware:
+    architecture: MIPSEB
+    sha256: 6dea0c55c57cbf789e6329b256892039233e5b8aa6b7b38e6e27e1ff1442d800
+    vendor: D-Link
+    name: DIR-817LW A1
+    file_name: DIR-817LW_A1.bin
+    version: v1.04
+    release_date:
+    description: D-Link DIR-817LW Wireless AC750 Dual Band Cloud Router
+emulation:
+  context: ./emulation
+  ip: 192.168.0.1
+  port: 80
+  interface: tap
+seed:
+  directory: ./seed
+  list:
+  - seed_0
+  - seed_1
+  - seed_10
+  - seed_11
+  - seed_12
+  - seed_13
+  - seed_14
+  - seed_15
+  - seed_16
+  - seed_17
+  - seed_18
+  - seed_19
+  - seed_2
+  - seed_20
+  - seed_21
+  - seed_22
+  - seed_23
+  - seed_24
+  - seed_25
+  - seed_26
+  - seed_27
+  - seed_28
+  - seed_29
+  - seed_3
+  - seed_30
+  - seed_31
+  - seed_32
+  - seed_33
+  - seed_34
+  - seed_35
+  - seed_36
+  - seed_37
+  - seed_38
+  - seed_39
+  - seed_4
+  - seed_40
+  - seed_41
+  - seed_42
+  - seed_43
+  - seed_44
+  - seed_45
+  - seed_5
+  - seed_6
+  - seed_7
+  - seed_8
+  - seed_9
+authkeeper:
+  method: update
+  script_path: ./auth/update.py
+  test_seed: seed_0

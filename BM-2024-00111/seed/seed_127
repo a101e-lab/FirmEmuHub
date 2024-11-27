@@ -1,0 +1,37 @@
+POST /cgi?1&1&1&5&5&5 HTTP/1.1
+Host: 192.168.33.107:32875
+Content-Length: 481
+Authorization: Basic YWRtaW46YWRtaW4=
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.5938.132 Safari/537.36
+Content-Type: text/plain
+Accept: */*
+Origin: http://192.168.33.107:32875
+Referer: http://192.168.33.107:32875/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN,zh;q=0.9
+Cookie: Authorization=Basic%20YWRtaW46MjEyMzJmMjk3YTU3YTVhNzQzODk0YTBlNGE4MDFmYzM%3D
+Connection: close
+
+[IP6_TUNNEL#0,0,0,0,0,0#0,0,0,0,0,0]0,0
+[DSLITE#0,0,0,0,0,0#0,0,0,0,0,0]1,0
+[SIT_6RD#0,0,0,0,0,0#0,0,0,0,0,0]2,0
+[WAN_IP_CONN#0,0,0,0,0,0#0,0,0,0,0,0]3,7
+enable
+name
+connectionType
+connectionStatus
+X_TPLINK_IfName
+addressingType
+externalIPAddress
+[WAN_PPP_CONN#0,0,0,0,0,0#0,0,0,0,0,0]4,5
+X_TPLINK_NCPType
+name
+connectionStatus
+X_TPLINK_IfName
+externalIPAddress
+[WAN_IP6_CONN#0,0,0,0,0,0#0,0,0,0,0,0]5,5
+enable
+name
+connectionStatus
+ifName
+externalIPAddress

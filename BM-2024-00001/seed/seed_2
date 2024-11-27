@@ -1,0 +1,11 @@
+GET /KKPWGTGBRGHDXVRC/userRpm/PPTPCfgRpm.htm?wan=0&wantype=7&PPTPName=admin&PPTPPwd=admin&PPTPPwd_cfm=admin&IpType=0&PPTPServerName=192.168.0.2&sta_ip=0.0.0.0&sta_mask=0.0.0.0&sta_gw=0.0.0.0&sta_dns=0.0.0.0&mtu=1420&idletime=15&linktype=2&Save=Save HTTP/1.1
+Host: 192.168.2.139:52910
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/109.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Referer: http://192.168.2.139:52910/KKPWGTGBRGHDXVRC/userRpm/PPTPCfgRpm.htm?wan=0
+Cookie: Authorization=Basic%20YWRtaW46MjEyMzJmMjk3YTU3YTVhNzQzODk0YTBlNGE4MDFmYzM%3D
+Upgrade-Insecure-Requests: 1
+

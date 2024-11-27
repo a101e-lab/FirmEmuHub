@@ -1,0 +1,15 @@
+POST /adv_perf.php HTTP/1.1
+Host: 0.0.0.0:49157
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 309
+Origin: http://0.0.0.0:49157
+Connection: keep-alive
+Referer: http://0.0.0.0:49157/adv_perf.php
+Cookie: uid=xkbzmm1Deq; session_uid=vkcfwkbdyh; auth_key=OH+AlvVFBzO2mvtDBX+qxyNjY2OaY2PHY2MYY2OWY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjYw==
+Upgrade-Insecure-Requests: 1
+
+ACTION_POST=adv_perf&f_wlmode=7&f_rate=31&f_mrate_a=1&f_mrate_g=0&f_coexistence=1&wl_enable=1&wlmode_g=5&wlmode_a=7&rate_g=31&rate_a=31&bi=100&dtim=12&power=1&wmm=1&ack_timeout=52&shortgi=0&igmp=0&limit_state=0&limit_num=20&mcast_a_n=0&mcast_a=1&mcast_n_fora=0&mcast_g_n=0&mcast_g=0&mcast_n_forg=0&ht_status=1

@@ -1,0 +1,71 @@
+version: '1'
+info:
+  serial: BM-2024-00011
+  build_date: 2024-07-22
+  firmware:
+    architecture: MIPSEB
+    sha256: e8b2951a6c9635d910f847618d6bdf12d4eaae733e87ccb1e8edb65439627d53
+    vendor: TP-Link
+    name: TL-WR810N
+    file_name: wr810nv2_eu_3_16_9_up_boot(160509).bin
+    version: V2
+    release_date: 2016-05-09
+    description: TP-Link TL-WR810N V2 Wireless Wi-Fi Travel Router w/ Access Point/
+      TV Adapter/ Repeater/ Hotspot (WISP) Modes, Up to 300Mbps.
+emulation:
+  context: ./emulation
+  ip: 192.168.0.254
+  port: 80
+  interface: tap
+seed:
+  directory: ./seed
+  list:
+  - seed_0
+  - seed_1
+  - seed_10
+  - seed_11
+  - seed_12
+  - seed_13
+  - seed_14
+  - seed_15
+  - seed_16
+  - seed_17
+  - seed_18
+  - seed_19
+  - seed_2
+  - seed_20
+  - seed_21
+  - seed_22
+  - seed_23
+  - seed_24
+  - seed_25
+  - seed_26
+  - seed_27
+  - seed_28
+  - seed_29
+  - seed_3
+  - seed_30
+  - seed_31
+  - seed_32
+  - seed_33
+  - seed_34
+  - seed_35
+  - seed_36
+  - seed_37
+  - seed_38
+  - seed_39
+  - seed_4
+  - seed_40
+  - seed_41
+  - seed_42
+  - seed_43
+  - seed_44
+  - seed_5
+  - seed_6
+  - seed_7
+  - seed_8
+  - seed_9
+authkeeper:
+  method: update
+  script_path: ./auth/update.py
+  test_seed: seed_0

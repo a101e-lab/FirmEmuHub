@@ -1,0 +1,14 @@
+POST /apply.cgi HTTP/1.1
+Host: 172.17.0.2
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:107.0) Gecko/20100101 Firefox/107.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 407
+Origin: http://172.17.0.2
+Connection: close
+Referer: http://172.17.0.2/adv_dmz.asp
+Upgrade-Insecure-Requests: 1
+
+html_response_page=back.asp&html_response_message=The+new+settings+have+been+saved.&html_response_return_page=adv_dmz.asp&reboot_type=filter&dhcp_list=&dmz_schedule=&spiEnable=1&spi_enable=1&udp_nat_type=0&tcp_nat_type=2&anti_spoof_check_sel=1&anti_spoof_check=0&dmz_enable=0&dmz_host=1&dmz_ipaddr=192.168.0.5&dhcp=-1&pptp_pass_through=1&pptp=1&ipsec_pass_through=1&ipsec=1&alg_rtsp=1&rtsp=1&alg_sip=1&sip=1
