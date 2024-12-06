@@ -46,6 +46,8 @@ BM-YYYY-XXXXX/         # Benchmark directory (e.g., BM-2024-00001)
 └── benchmark.yml     # Benchmark configuration file
 ```
 
+For a complete list of available benchmarks and their corresponding device information, please check [DEVICES.md](DEVICES.md).
+
 ## Usage
 
 1. **Prepare your benchmark configuration:**
