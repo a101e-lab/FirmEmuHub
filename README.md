@@ -1,6 +1,6 @@
 # IoT Benchmark Emulator
 
-[English](README.md) | [中文](readme/README_zh.md)
+[English](README.md) | [简体中文](readme/README_zh.md)
 
 This script is designed to emulate IoT firmware using Docker containers. It builds and runs a Docker image based on a specified benchmark configuration, and attempts to start a service within the container.
 

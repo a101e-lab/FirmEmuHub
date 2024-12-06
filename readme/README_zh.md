@@ -1,6 +1,6 @@
 # IoT 基准测试模拟器
 
-[English](../README.md) | [中文](README_zh.md)
+[English](../README.md) | [简体中文](README_zh.md)
 
 此脚本旨在使用 Docker 容器模拟 IoT 固件。它根据指定的基准测试配置构建并运行 Docker 镜像，并尝试在容器内启动服务。
 
