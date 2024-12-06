@@ -24,6 +24,28 @@ This script is designed to emulate IoT firmware using Docker containers. It buil
    pip install -r requirements.txt
    ```
 
+## Benchmark Directory Structure
+
+Each benchmark directory should follow this structure:
+
+```
+BM-YYYY-XXXXX/         # Benchmark directory (e.g., BM-2024-00001)
+├── auth/             # Authentication related files
+│   └── update.py     # Authentication update script
+├── emulation/        # Emulation related files
+│   ├── firmware/     # Firmware files directory
+│   │   └── wr940nv4_us_3_...  # Firmware file
+│   ├── Dockerfile    # Docker configuration
+│   └── run.sh        # Emulation run script
+├── seed/             # Seed files directory
+│   ├── seed_0
+│   ├── seed_1
+│   ├── seed_2
+│   ├── seed_3
+│   └── seed_4
+└── benchmark.yml     # Benchmark configuration file
+```
+
 ## Usage
 
 1. **Prepare your benchmark configuration:**
