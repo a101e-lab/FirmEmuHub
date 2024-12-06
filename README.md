@@ -68,6 +68,8 @@ For a complete list of available benchmarks and their corresponding device infor
    sudo python3 emulation.py -b ./Benchmark/BM-2024-00001
    ```
 
+   ![alt text](images/emulation-result.png)
+
    **Note:** `sudo` is required because Docker commands may need elevated permissions.
 
 ## Troubleshooting

@@ -68,6 +68,8 @@ BM-YYYY-XXXXX/         # 基准测试目录（例如：BM-2024-00001）
    sudo python3 emulation.py -b ./Benchmark/BM-2024-00001
    ```
 
+   ![alt text](../images/emulation-result.png)
+
    **注意：** 由于 Docker 命令可能需要提升权限，因此需要使用 `sudo`。
 
 ## 故障排除
