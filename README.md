@@ -57,10 +57,16 @@ For a complete list of available benchmarks and their corresponding device infor
 2. **Run the script (use `sudo` if necessary):**
 
    ```bash
-   sudo python3 iot-benchmark/emulation.py -b <path-to-benchmark-directory>
+   sudo python3 emulation.py -b <path-to-benchmark-directory>
    ```
 
    Replace `<path-to-benchmark-directory>` with the path to your benchmark directory containing the `benchmark.yml` file.
+
+   For example:
+
+   ```bash
+   sudo python3 emulation.py -b ./Benchmark/BM-2024-00001
+   ```
 
    **Note:** `sudo` is required because Docker commands may need elevated permissions.
 

@@ -57,10 +57,16 @@ BM-YYYY-XXXXX/         # 基准测试目录（例如：BM-2024-00001）
 2. **运行脚本（必要时使用 `sudo`）：**
 
    ```bash
-   sudo python3 iot-benchmark/emulation.py -b <path-to-benchmark-directory>
+   sudo python3 emulation.py -b <path-to-benchmark-directory>
    ```
 
    将 `<path-to-benchmark-directory>` 替换为包含 `benchmark.yml` 文件的基准测试目录路径。
+
+   例如：
+
+   ```bash
+   sudo python3 emulation.py -b ./Benchmark/BM-2024-00001
+   ```
 
    **注意：** 由于 Docker 命令可能需要提升权限，因此需要使用 `sudo`。
 
