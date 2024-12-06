@@ -14,7 +14,7 @@ This script is designed to emulate IoT firmware using Docker containers. It buil
 1. **Clone the repository:**
 
    ```bash
-   git clone git@github.com:a101e-lab/iot-benchmark.git
+   git clone https://github.com/a101e-lab/iot-benchmark.git
    cd iot-benchmark
    ```
 
