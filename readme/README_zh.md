@@ -37,14 +37,10 @@ BM-YYYY-XXXXX/         # 基准测试目录（例如：BM-2024-00001）
 │   │   └── wr940nv4_us_3_...  # 固件文件
 │   ├── Dockerfile    # Docker配置文件
 │   └── run.sh        # 模拟运行脚本
-├── seed/             # 种子文件目录
-│   ├── seed_0
-│   ├── seed_1
-│   ├── seed_2
-│   ├── seed_3
-│   └── seed_4
 └── benchmark.yml     # 基准测试配置文件
 ```
+
+**注意：** `auth` 目录是可选的，仅在固件需要认证时才需要。
 
 有关可用基准测试和对应设备信息的完整列表，请查看 [DEVICES.md](../DEVICES.md)。
 
