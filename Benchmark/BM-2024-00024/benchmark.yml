@@ -19,4 +19,3 @@ emulation:
 authkeeper:
   method: update
   script_path: ./auth/update.py
-  test_seed: seed-46

@@ -21,4 +21,3 @@ emulation:
 authkeeper:
   method: none
   script_path: none
-  test_seed: seed_0
