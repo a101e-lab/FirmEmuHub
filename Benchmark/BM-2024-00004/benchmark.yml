@@ -10,108 +10,12 @@ info:
     file_name: Archer_C20iv1_0.9.1_3.2_up_boot(170221)_2017-02-21_17.14.03.bin
     version: V1
     release_date: 2017-02-21
-    description: null
+    description:
 emulation:
   context: ./emulation
   ip: 192.168.0.1
   port: 80
   interface: tap
-seed:
-  directory: ./seed
-  list:
-  - seed_0
-  - seed_1
-  - seed_10
-  - seed_11
-  - seed_12
-  - seed_13
-  - seed_14
-  - seed_15
-  - seed_16
-  - seed_17
-  - seed_18
-  - seed_19
-  - seed_2
-  - seed_20
-  - seed_21
-  - seed_22
-  - seed_23
-  - seed_24
-  - seed_25
-  - seed_26
-  - seed_27
-  - seed_28
-  - seed_29
-  - seed_3
-  - seed_30
-  - seed_31
-  - seed_32
-  - seed_33
-  - seed_34
-  - seed_35
-  - seed_36
-  - seed_37
-  - seed_38
-  - seed_39
-  - seed_4
-  - seed_40
-  - seed_41
-  - seed_42
-  - seed_43
-  - seed_44
-  - seed_45
-  - seed_46
-  - seed_47
-  - seed_48
-  - seed_49
-  - seed_5
-  - seed_50
-  - seed_51
-  - seed_52
-  - seed_53
-  - seed_54
-  - seed_55
-  - seed_56
-  - seed_57
-  - seed_58
-  - seed_59
-  - seed_6
-  - seed_60
-  - seed_61
-  - seed_62
-  - seed_63
-  - seed_64
-  - seed_65
-  - seed_66
-  - seed_67
-  - seed_68
-  - seed_69
-  - seed_7
-  - seed_70
-  - seed_71
-  - seed_72
-  - seed_73
-  - seed_74
-  - seed_75
-  - seed_76
-  - seed_77
-  - seed_78
-  - seed_79
-  - seed_8
-  - seed_80
-  - seed_81
-  - seed_82
-  - seed_83
-  - seed_84
-  - seed_85
-  - seed_86
-  - seed_87
-  - seed_88
-  - seed_89
-  - seed_9
-  - seed_90
-  - seed_91
-  - seed_92
 authkeeper:
   method: none
   script_path: none

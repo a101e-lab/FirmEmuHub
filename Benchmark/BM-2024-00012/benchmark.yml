@@ -16,21 +16,6 @@ emulation:
   ip: 192.168.0.1
   port: 80
   interface: eth0
-seed:
-  directory: ./seed
-  list:
-  - seed_0
-  - seed_1
-  - seed_10
-  - seed_11
-  - seed_2
-  - seed_3
-  - seed_4
-  - seed_5
-  - seed_6
-  - seed_7
-  - seed_8
-  - seed_9
 authkeeper:
   method: replay
   script_path: ./auth/replay.py

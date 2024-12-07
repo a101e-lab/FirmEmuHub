@@ -16,61 +16,6 @@ emulation:
   ip: 192.168.0.1
   port: 80
   interface: tap
-seed:
-  directory: ./seed
-  list:
-  - seed_0
-  - seed_1
-  - seed_10
-  - seed_11
-  - seed_12
-  - seed_13
-  - seed_14
-  - seed_15
-  - seed_16
-  - seed_17
-  - seed_18
-  - seed_19
-  - seed_2
-  - seed_20
-  - seed_21
-  - seed_22
-  - seed_23
-  - seed_24
-  - seed_25
-  - seed_26
-  - seed_27
-  - seed_28
-  - seed_29
-  - seed_3
-  - seed_30
-  - seed_31
-  - seed_32
-  - seed_33
-  - seed_34
-  - seed_35
-  - seed_36
-  - seed_37
-  - seed_38
-  - seed_39
-  - seed_4
-  - seed_40
-  - seed_41
-  - seed_42
-  - seed_43
-  - seed_44
-  - seed_45
-  - seed_46
-  - seed_47
-  - seed_48
-  - seed_49
-  - seed_5
-  - seed_50
-  - seed_51
-  - seed_6
-  - seed_7
-  - seed_8
-  - seed_9
 authkeeper:
   method: update
   script_path: ./auth/update.py

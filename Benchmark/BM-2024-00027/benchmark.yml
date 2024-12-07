@@ -16,32 +16,6 @@ emulation:
   ip: 192.168.0.50
   port: 80
   interface: tap
-seed:
-  directory: ./seed
-  list:
-  - CVE-2022-35619
-  - CVE-2022-35620
-  - seed_0
-  - seed_1
-  - seed_10
-  - seed_11
-  - seed_12
-  - seed_13
-  - seed_14
-  - seed_15
-  - seed_16
-  - seed_17
-  - seed_18
-  - seed_19
-  - seed_2
-  - seed_20
-  - seed_3
-  - seed_4
-  - seed_5
-  - seed_6
-  - seed_7
-  - seed_8
-  - seed_9
 authkeeper:
   method: replay
   script_path: ./auth/replay.py
