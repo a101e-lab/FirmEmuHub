@@ -6,7 +6,7 @@ This script is designed to emulate IoT firmware using Docker containers. It buil
 
 ## Prerequisites
 
-- Python 3.x
+- Python $\geq$ 3.8
 - Docker
 
 ## Installation

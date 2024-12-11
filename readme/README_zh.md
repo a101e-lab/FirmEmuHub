@@ -6,7 +6,7 @@
 
 ## 前置要求
 
-- Python 3.x
+- Python $\geq$ 3.8
 - Docker
 
 ## 安装
