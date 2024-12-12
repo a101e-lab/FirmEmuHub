@@ -4,6 +4,21 @@
 
 This script is designed to emulate IoT firmware using Docker containers. It builds and runs a Docker image based on a specified benchmark configuration, and attempts to start a service within the container.
 
+## Available Benchmarks
+
+We provide a collection of IoT firmware benchmarks from various vendors. Each benchmark is identified by a unique ID in the format `BM-YYYY-XXXXX`, where:
+- `YYYY`: Release year
+- `XXXXX`: Serial number
+
+For example, `BM-2024-00001` represents the first benchmark released in 2024.
+
+For a complete list of available benchmarks and their corresponding device information, including:
+- Vendor and model information
+- Firmware version
+- Device description
+
+Please check [DEVICES.md](DEVICES.md).
+
 ## Prerequisites
 
 - Python $\geq$ 3.8
@@ -41,8 +56,6 @@ BM-YYYY-XXXXX/         # Benchmark directory (e.g., BM-2024-00001)
 ```
 
 **Note:** The `auth` directory is optional and only needed if the firmware requires authentication.
-
-For a complete list of available benchmarks and their corresponding device information, please check [DEVICES.md](DEVICES.md).
 
 ## Usage
 
