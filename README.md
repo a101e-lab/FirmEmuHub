@@ -29,8 +29,8 @@ Please check [DEVICES.md](DEVICES.md).
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/a101e-lab/iot-benchmark.git
-   cd iot-benchmark
+   git clone https://github.com/a101e-lab/FirmEmuHub.git
+   cd FirmEmuHub
    ```
 
 2. **Install the required Python packages:**
