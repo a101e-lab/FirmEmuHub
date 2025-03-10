@@ -29,8 +29,8 @@
 1. **克隆仓库：**
 
    ```bash
-   git clone https://github.com/a101e-lab/iot-benchmark.git
-   cd iot-benchmark
+   git clone https://github.com/a101e-lab/FirmEmuHub.git
+   cd FirmEmuHub
    ```
 
 2. **安装所需的 Python 包：**
